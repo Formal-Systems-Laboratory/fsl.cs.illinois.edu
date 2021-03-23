@@ -17,6 +17,7 @@ sidebar: true
 - [Nishant Rodrigues](nishant-rodrigues/index.html)
 - [Manasvi Saxena](manasvi-saxena/index.html)
 - [Zhengyao Lin](zhengyao-lin/index.html)
+- [Ali Kheradmand](https://kheradmand.web.illinois.edu)
 
 [Instructions]({{site.baseurl}}/other-pages/instructions-for-new-fsl-members.html) for new FSL members.
 
