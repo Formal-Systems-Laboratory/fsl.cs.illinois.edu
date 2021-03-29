@@ -14,4 +14,4 @@ layout: default
 - Foundations for Natural Proofs and Quantifier Instantiation (POPL'18)
 - Program Verification by Coinduction (ESOP/ETAPS'18)
 - Towards a Verified Model of the Algorand ConsensusProtocol in Coq (FMBC'19)
-p- Verifying Finality for Blockchain Systems (CoqPL'19)
+- Verifying Finality for Blockchain Systems (CoqPL'19)
