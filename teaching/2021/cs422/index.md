@@ -30,6 +30,7 @@ Complete lecture notes will be posted here.
 - [March 19](https://illinois.zoom.us/rec/share/IjeRwgffp-QkZ7hPY7YXBQhA3J2RRqIdtQbBKs8U7C1_L2jv4-IetPhM5GKP3VVp.q4yUZwbFnyVQXoxV?startTime=1616180503000)
 - [March 26](https://illinois.zoom.us/rec/share/RedEuvnI1PKyQ_ctZbIc0nQihnillLAZnJoLLNewUCOZIToYDeJB-bP1pgJF33le.Ek1C53Scz6cIYwDR?startTime=1616785473000)
 - [March 31](https://illinois.zoom.us/rec/share/zBHBPgLwsOdTbOxJwWcdDpcKLswaSNvSwbEwg1jSKm0bQfhYsFLBWE_Xz5yolPtI.ZzbF4dHOI0PV3Gyn?startTime=1617217240000)
+- [April 2](https://illinois.zoom.us/rec/share/ybrWhiqrVbH1-i7FI5hirDpVyxOWZ7D1Ze0L5tw5ZV-ASnXEgR74_wnzqX1Jw2UX.o4f_m5OTvY4r8kwS?startTime=1617390184000)
 
 ## Course Description
 
