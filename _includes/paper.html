@@ -7,7 +7,7 @@
 {%- assign paper = papers | where_exp: "paper","paper.bib.id == include.id" | first -%}
 {%- endif -%}
 
-<a class='paper-title' href="{{ paper.url }}"> {{paper.bib.title}} </a>
+<h4 class='paper-title'> <a href="{{ paper.url }}"> {{paper.bib.title}} </a> </h3>
 <div class='paper-authors'>
   {%- include author_list.html authors=paper.bib.authors -%}
 </div>
