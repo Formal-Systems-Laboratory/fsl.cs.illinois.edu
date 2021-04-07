@@ -5,9 +5,6 @@ sidebar: true
 ---
 
 <h1> {{ page.bib.title }} </h1>
-{% include author_list.html authors=page.bib.authors %}
-<br>
-{{ page.bib.booktitle_acronym }}
+{% include paper.html id=page.bib.id %}
 <p> <strong> Abstract. </strong> {{ page.bib.abstract}} </p>
-<br>
 
