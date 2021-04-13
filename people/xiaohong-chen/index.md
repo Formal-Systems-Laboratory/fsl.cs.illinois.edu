@@ -22,12 +22,14 @@ title: Xiaohong Chen's Home Page
 
 ## Research Interests
 
-- Programming Languages, Program Semantics, Program Logic and Verification
-- Open Problems in Matching Logic
+- Logic
+- Formal methods
+- Programming languages design and analysis
 
 ## Publications
 
-- Matching logic explained, Technical Report, 2020.
+- <math>\dag</math> [https://dl.acm.org/doi/10.1145/3428229](https://fsl.cs.illinois.edu/publications/chen-pena-rodrigues-rosu-trinh-2020-oopsla.html), OOPSLA, 2020.
+- <math>\dag</math> [Matching logic explained](https://www.sciencedirect.com/science/article/abs/pii/S2352220821000018), Logical and Algebraic Methods in Programming, 2021.
 - Initial algebra semantics in matching logic, Technical Report, 2020.
 - A general approach to define binders using matching logic, Proceedings of the 25th ACM SIGPLAN International Conference on Functional Programming (ICFP'20)
 - Connecting constrained constructor patterns and matching logic (Best Paper Award), Proceedings of the 13th international workshop on rewriting logic and its applications (WRLA'20)
