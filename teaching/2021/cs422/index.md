@@ -104,7 +104,7 @@ Note: See the [callCC (substitution)](https://github.com/kframework/k/tree/maste
 
 
 ---
-<b><em><span style="color:red">HW3 (due date TBD)</span></em></b>
+<b><em><span style="color:red">HW3 (due date: Wednesday, April 21)</span></em></b>
 
 ***Exercise 1 (10 points):*** Add `break;` and `continue;` to untyped SIMPLE. Just take the semantics of these from C/C++/Java, if uncertain. Do only the simple, unlabeled ones, which only break/continue the innermost loop. One thing to think about: do you still want to desugar the for-loop into a while-loop as we do it now?
 
