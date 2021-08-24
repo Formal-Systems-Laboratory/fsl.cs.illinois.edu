@@ -42,8 +42,8 @@ need* and more topics will be added.
 
 -   Conventional Semantic Approaches
 
-    -   [Slides (PDF)](CS522-Fall-2021-Conventional-Executable-Semantics.pdf),
-        [Slides (PPTX)](CS522-Fall-2021-Conventional-Executable-Semantics.pptx)
+    -   [Slides (PDF)](02-Conventional-Executable-Semantics.pdf),
+        [Slides (PPTX)](02-Conventional-Executable-Semantics.pptx)
         <font color=red>(incomplete)</font>
     -   [Book material on IMP, Big-Step SOS, Small-Step SOS, and Denotational
         Semantics](CS522-Fall-2021-basic-semantics.pdf)
