@@ -28,9 +28,9 @@ paradigms will be discussed, together with major theoretical models.
 
 ## Piazza Page {#piazza_page}
 
-[CS522 Piazza Page](https://piazza.com/illinois/fall2021/cs522/home)
+[CS522 Piazza Page](https://piazza.com/illinois/fall2021/cs522)
 
-[Self-register](https://piazza.com/illinois/fall2021/cs522)
+Let the professor know if you cannot self-register.
 
 ## Lecture Notes, Useful Material {#lecture_notes_useful_material}
 
