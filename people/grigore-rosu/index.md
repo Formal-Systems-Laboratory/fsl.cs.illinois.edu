@@ -24,7 +24,7 @@ title: Grigore Rosu's Home Page
    - [jPredictor]({{site.baseurl}}/projects/jpredictor/index.html)
    - [Circ]({{site.baseurl}}/projects/circ/index.html)
 - [Editing and Service]({{site.baseurl}}/other-pages/under-construction.html)
-- [Teaching]({{site.baseurl}}/teaching/index.html)  --- [CS522 Zoom Link] (https://illinois.zoom.us/j/2172447431?pwd=dEtxWmdJR0FYOElUa1ZLL2RJRzdZUT09)
+- [Teaching]({{site.baseurl}}/teaching/index.html)  --- [CS522 Zoom Link](https://illinois.zoom.us/j/2172447431?pwd=dEtxWmdJR0FYOElUa1ZLL2RJRzdZUT09)
 - [Join the FSL group!](join-fsl-group.html)
 - [Aviation page]({{site.baseurl}}/other-pages/under-construction.html)
 - [Contact]({{site.baseurl}}/other-pages/under-construction.html)
