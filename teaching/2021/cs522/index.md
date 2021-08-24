@@ -30,6 +30,9 @@ paradigms will be discussed, together with major theoretical models.
 
 [CS522 Piazza Page](https://piazza.com/illinois/fall2021/cs522/home)
 
+You should be able to self-register here:
+piazza.com/illinois/fall2021/cs522
+
 ## Lecture Notes, Useful Material {#lecture_notes_useful_material}
 
 The links below provide you with useful material for this class,
