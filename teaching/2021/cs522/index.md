@@ -38,7 +38,7 @@ The links below provide you with useful material for this class,
 including complete lecture notes. These materials will be added *by
 need* and more topics will be added.
 
--   [Introduction](CS522-Fall-2021-Introduction.pdf)
+-   [Introduction](01-Introduction.pdf)
 
 -   Conventional Semantic Approaches
 
