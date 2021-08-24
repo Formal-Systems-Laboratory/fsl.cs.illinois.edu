@@ -3,6 +3,8 @@ title: CS 522 -- Fall 2021
 layout: default
 ---
 
+# CS522 - Programming Language Semantics
+
 Students enrolled in this class are expected to check this web page
 regularly. Lecture notes and important other material will be posted
 here.
