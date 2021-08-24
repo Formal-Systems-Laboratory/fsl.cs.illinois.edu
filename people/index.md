@@ -17,7 +17,7 @@ sidebar: true
 - [Nishant Rodrigues](nishant-rodrigues/index.html)
 - [Manasvi Saxena](manasvi-saxena/index.html)
 - [Zhengyao Lin](https://zhengyao.page)
-- [Ali Kheradmand](https://kheradmand.web.illinois.edu)
+
 
 [Instructions]({{site.baseurl}}/other-pages/instructions-for-new-fsl-members.html) for new FSL members.
 
@@ -25,6 +25,7 @@ sidebar: true
 
 (Listed in reverse order of the date when they left FSL)
 
+- Ali Kheradmand (PhD)
 - Daejun Park (PhD)
 - Owolabi Legunsen (PhD)
 - Cosmin Radoi (PhD)
