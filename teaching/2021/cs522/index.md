@@ -48,6 +48,6 @@ need* and more topics will be added.
         [Slides (PPTX)](02-Conventional-Executable-Semantics.pptx)
         <font color=red>(incomplete)</font>
     -   [Book material on IMP, Big-Step SOS, Small-Step SOS, and Denotational
-        Semantics](comming soon)
+        Semantics](CS522-Fall-2021-basic-semantics.pdf)
 
 -   ...
