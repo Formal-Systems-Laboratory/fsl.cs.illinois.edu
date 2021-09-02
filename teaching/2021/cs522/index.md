@@ -50,4 +50,8 @@ need* and more topics will be added.
     -   [Book material on IMP, Big-Step SOS, Small-Step SOS, and Denotational
         Semantics](CS522-Fall-2021-basic-semantics.pdf)
 
--   ...
+-   Rewriting Logic and Maude
+
+    -   [slides](CS522-Fall-2021-Maude.pdf) - recommended only for a quick look
+    -   [Book material](CS522-Fall-2021-Maude-book.pdf) - recommended
+
