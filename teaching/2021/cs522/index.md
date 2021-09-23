@@ -66,3 +66,11 @@ need* and more topics will be added.
     following exercises to warm-up (but please do not include them as part of
     your HW1 submission): Exercise 30; Exercise 32; Exercise 33; Exercise 35;
     Exercise 36. All at pages 80/81.
+
+-   ### HW2 (due Thursday, September 30; allowed until Tuesday, October 5, but this is an easy HW, so earlier submission possible and appreciated)
+
+    The following exercises related to denotational semantics are from the book
+    material above: Exercises 80, 81, 82 (page 168; write these up on paper, or
+    in a PDF); Exercise 83 (page 169; do it only in Maude, that is, *not* on
+    paper, by modifying [the provided Maude code for
+    HW2](CS522-Fall-2021-Maude-HW2.zip)).
