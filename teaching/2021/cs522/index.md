@@ -74,3 +74,6 @@ need* and more topics will be added.
     in a PDF); Exercise 83 (page 169; do it only in Maude, that is, *not* on
     paper, by modifying [the provided Maude code for
     HW2](CS522-Fall-2021-Maude-HW2.zip)).
+
+-   [Book material on IMP++: Challenging Big-Step SOS, Small-Step SOS, and
+    Denotational Semantics](CS522-Fall-2021-IMP++.pdf)
