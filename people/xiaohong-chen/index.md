@@ -76,4 +76,5 @@ title: Xiaohong Chen's Home Page
 ## Links
 
 - [Google Scholar](https://scholar.google.com/citations?user=4LP6Y64AAAAJ&hl=en) / [dblp](https://dblp.org/pid/02/1438-2)
-- Some [advice on writing](https://terrytao.wordpress.com/advice-on-writing-papers/) by [Terence Tao](https://www.math.ucla.edu/~tao/).
+- Some [advice on writing](https://terrytao.wordpress.com/advice-on-writing-papers/) by [Terence Tao](https://www.math.ucla.edu/~tao/)
+- [Logic Matters](https://www.logicmatters.net/)
