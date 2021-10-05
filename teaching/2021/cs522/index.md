@@ -77,3 +77,13 @@ need* and more topics will be added.
 
 -   [Book material on IMP++: Challenging Big-Step SOS, Small-Step SOS, and
     Denotational Semantics](CS522-Fall-2021-IMP++.pdf)
+
+-   ### HW3 (due Thursday, October 14)
+
+    Combine all the individual extensions of IMP in [the provided Maude code for
+    HW3 (similar to that provided for HW2)](CS522-Fall-2021-Maude-HW3.zip) into the IMP++ language. Read the book
+    material above for all the technical details. You should create a subfolder
+    of imp called 6-imp++, and that should have four subfolders, one for each
+    semantic style. Provide also three IMP++ programs.
+
+-  [Book material on Modular SOS, Evaluation Contexts, and the CHAM](CS522-Fall-2021-MSOS-RSEC-CHAM.pdf)}
