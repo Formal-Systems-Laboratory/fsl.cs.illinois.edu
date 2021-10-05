@@ -86,4 +86,4 @@ need* and more topics will be added.
     of imp called 6-imp++, and that should have four subfolders, one for each
     semantic style. Provide also three IMP++ programs.
 
--  [Book material on Modular SOS, Evaluation Contexts, and the CHAM](CS522-Fall-2021-MSOS-RSEC-CHAM.pdf)}
+-  [Book material on Modular SOS, Evaluation Contexts, and the CHAM](CS522-Fall-2021-MSOS-RSEC-CHAM.pdf)
