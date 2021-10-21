@@ -7,6 +7,8 @@ title: Xiaohong Chen's Home Page
 
 ![Xiaohong Chen]({{site.baseurl}}/assets/photos/xiaohong-chen-photo.png)
 
+## [Read My Thesis!](https://fsl.cs.illinois.edu/people/xiaohong-chen/thesis.html)
+
 ## My Name
 
 - 陈霄泓
@@ -24,12 +26,9 @@ title: Xiaohong Chen's Home Page
 
 ## Research Interests
 
-- Logic and Formal Methods
-- Programming Languages Design and Analysis
-
-## Slides
-
-- [SPLASH 2021](2021-10-SPLASH-ICFP.pdf)
+- Logic
+- Formal semantics of programming languages
+- Automated theorem proving, proof generation, and proof checking
 
 ## Publications
 
