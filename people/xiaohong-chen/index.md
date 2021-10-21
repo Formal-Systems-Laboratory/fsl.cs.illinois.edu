@@ -27,6 +27,10 @@ title: Xiaohong Chen's Home Page
 - Logic and Formal Methods
 - Programming Languages Design and Analysis
 
+## Slides
+
+- [SPLASH 2021](2021-10-SPLASH-ICFP.pdf)
+
 ## Publications
 
 - **★** ***[Matching logic explained](https://www.sciencedirect.com/science/article/abs/pii/S2352220821000018)***, Logical and Algebraic Methods in Programming, 2021.
