@@ -87,3 +87,13 @@ need* and more topics will be added.
     semantic style. Provide also three IMP++ programs.
 
 -  [Book material on Modular SOS, Evaluation Contexts, and the CHAM](CS522-Fall-2021-MSOS-RSEC-CHAM.pdf)
+
+-   ### HW4 (due Thursday, October 28)
+
+    Same as HW3 but for the three additional semantic approaches discussed in the
+    lecture notes above: MSOS, RSEC, and CHAM. Use
+    [this provided Maude code for HW4](CS522-Fall-2021-Maude-HW4.zip).
+    Handle also a short essay discussing the advantages and limitations of each of
+    the semantic approaches discussed so far in class, assigning a (justified) score
+    between 1 and 10 to each of them.
+    
