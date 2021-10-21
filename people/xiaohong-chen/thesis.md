@@ -3,12 +3,10 @@ layout: default
 title: Xiaohong Chen's Home Page
 ---
 
-# Xiaohong Chen's PhD Thesis
-
-I keep updating chapters of my PhD thesis.
+I keep updating chapters of my PhD thesis here. 
 Check this page regularly.
 
-## PhD Thesis: Matching μ-Logic
+## Title: Matching μ-Logic
 
 - Chapter 1. Introduction
 - Chapter 2. Preliminaries
@@ -21,4 +19,10 @@ Check this page regularly.
   - 3.3. Matching μ-Logic Proof System and the Soundness Theorem
     - 3.3.1. Matching μ-Logic Proof System
     - 3.3.2. Soundness Theorem
-    - 3.3.3. Basic Matching Logic Reasoning
+    - 3.3.3. Basic Matching μ-Logic Reasoning
+- Chapter 4. Basic Matching μ-Logic Theories
+- Chapter 5. Completeness of Matching μ-Logic
+- Chapter 6. Decidable Fragments of Matching μ-Logic
+- Chapter 7. Many-Sorted Matching μ-Logic
+- Chapter 8. Defining Logical Systems
+- Chapter 9. Matching μ-Logic and the K Framework
