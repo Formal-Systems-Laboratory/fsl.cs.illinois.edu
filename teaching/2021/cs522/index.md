@@ -97,3 +97,17 @@ need* and more topics will be added.
     the semantic approaches discussed so far in class, assigning a (justified) score
     between 1 and 10 to each of them.
     
+
+-   Category theory: definition, diagrams, cones and limits, exponentials
+
+    -   [Slides](CS522-Fall-2021-Category-Theory-slides.pdf)
+
+    -   [Hand written notes on category theory properties](CS522-Fall-2021-HandWritten-Category-Theory.zip)
+
+-   Lambda Calculus and Combinatory Logic
+
+    - [Slides](CS522-Fall-2021-Lambda-slides.pdf)
+
+    - [Book material on Lambda Calculus and Combinatory Logic](CS522-Fall-2021-Lambda.pdf)
+
+-  [Hand written notes on CCC models of untyped Lambda Calculus](CS522-Fall-2021-HandWritten-CCC-untyped-lambda.zip)
