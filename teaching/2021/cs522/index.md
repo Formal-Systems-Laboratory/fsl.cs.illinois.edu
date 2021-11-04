@@ -111,3 +111,15 @@ need* and more topics will be added.
     - [Book material on Lambda Calculus and Combinatory Logic](CS522-Fall-2021-Lambda.pdf)
 
 -  [Hand written notes on CCC models of untyped Lambda Calculus](CS522-Fall-2021-HandWritten-CCC-untyped-lambda.zip)
+
+-   ### HW5 (due Thursday, November 11)
+
+    This is a theoretical HW, requiring you to do three proofs using category
+    theory. You are strongly encouraged to do \*all\* the exercises in the
+    slides, especially if you did not have prior experience with category
+    theory. However, for his HW, only handle the following three exercises: (1, easy) Exercise 8 on slide 20 in the
+    [category theory slides](CS522-Fall-2021-Category-Theory-slides.pdf)
+    (2, easy) Property 1 on "category theory - 3.png" in the
+    [hand written notes on category theory properties](CS522-Fall-2021-HandWritten-Category-Theory.zip);
+    and (3, harder) Lemma on slide "ccc-untyped-lambda - 3.png" in the
+    [hand written notes on CCC models of untyped lambda calculus](CS522-Fall-2021-HandWritten-CCC-untyped-lambda.zip).
