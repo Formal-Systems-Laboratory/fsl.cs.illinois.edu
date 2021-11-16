@@ -123,3 +123,7 @@ need* and more topics will be added.
     [hand written notes on category theory properties](CS522-Fall-2021-HandWritten-Category-Theory.zip);
     and (3, harder) Lemma on slide "ccc-untyped-lambda - 3.png" in the
     [hand written notes on CCC models of untyped lambda calculus](CS522-Fall-2021-HandWritten-CCC-untyped-lambda.zip).
+
+-   Simply-Typed Lambda Calculus
+    * Basic notions: type system, equational semantics, models, completeness.  [Slides](CS522-Fall-2021-Simply-Typed-Lambda-Calculus.pdf)
+    * Cartesian Closed Categories as models for simply-typed lambda-calculus.  [Slides](CS522-Fall-2021-PL-CCC.pdf)
