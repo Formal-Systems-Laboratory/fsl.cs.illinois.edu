@@ -127,3 +127,9 @@ need* and more topics will be added.
 -   Simply-Typed Lambda Calculus
     * Basic notions: type system, equational semantics, models, completeness.  [Slides](CS522-Fall-2021-Simply-Typed-Lambda-Calculus.pdf)
     * Cartesian Closed Categories as models for simply-typed lambda-calculus.  [Slides](CS522-Fall-2021-PL-CCC.pdf)
+
+-   ### HW6 (due Friday, December 3) 
+       
+       Complete this [LAMBDA code snippet](CS522-Fall-2021-Lambda-Maude.zip).
+       This covers knowledge about untyped lambda-calculus, fixed-points,
+       combinatory logic, and de Bruijn nameless representations.
