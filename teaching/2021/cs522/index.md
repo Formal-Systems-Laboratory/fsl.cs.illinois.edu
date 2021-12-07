@@ -136,8 +136,8 @@ need* and more topics will be added.
 
 - Recursion, Types, Polymorphism
 
-    - Recursion and Types. [Slides](CS522-Fall-2018-Recursion.pdf)
-    - Polymorphism. [Slides](CS522-Fall-2018-Polymorphism.pdf)
+    - Recursion and Types. [Slides](CS522-Fall-2021-Recursion.pdf)
+    - Polymorphism. [Slides](CS522-Fall-2021-Polymorphism.pdf)
 
 -   ### Extra-Credit (due Friday, Dec 17)
 
