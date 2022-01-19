@@ -7,6 +7,10 @@ title: Grigore Rosu's Teaching
 
 (back to [Grigore Rosu]({{site.baseurl}}/people/grigore-rosu/index.html)'s home page)
 
+## 2022
+- Spring 2022:
+  [CS422]({{site.baseurl}}/teaching/2022/cs422/) - Programming Language Design
+
 ## 2021
 - Fall 2021:
   [CS522]({{site.baseurl}}/teaching/2021/cs522/) - Programming Language Semantics
