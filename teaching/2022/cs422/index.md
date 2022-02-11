@@ -27,7 +27,7 @@ Complete lecture notes will be posted here.
 
 CS422 is an advanced course on principles of programming language design. Major semantic approaches to programming languages will be discussed, such as structural operational semantics (various kinds), denotational semantics, and rewriting-based semantics. Programming language paradigms will be investigated and rigorously defined, including: imperative, functional, object-oriented, and logic programming languages; parameter binding and evaluation strategies; type checking and type inference; concurrency. Since the definitional framework used in this class will be executable, interpreters for the designed languages will be obtained for free. Software analysis tools reasoning about programs in these languages will also arise naturally. Major theoretical models will be discussed.
 
-- Meetings: W/F 14:00-15:15, Online
+- Meetings: W/F 14:00-15:15, hybrid --- Sidney Lu Mech Engr Bldg 1043 and also [Online](https://illinois.zoom.us/j/2172447431?pwd=dEtxWmdJR0FYOElUa1ZLL2RJRzdZUT09)
 - Credit: 3 or 4 credits
 - Professor: [Grigore Rosu]({{site.baseurl}}/people/grigore-rosu/index.html) (Office: SC 2110)
 - Office hours: Held by Grigore Rosu on Zoom or in SC 2110; by appointment.
