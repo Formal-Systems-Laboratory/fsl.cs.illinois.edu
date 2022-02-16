@@ -14,6 +14,7 @@ Complete lecture notes will be posted here.
 
 ### Lecture Recordings
 
+[Feb 11](https://illinois.zoom.us/rec/share/GHHfvQr3q0l57KdI8x9OUCrp6kzt_Etil-M8-6Y9xw34_QkCWFL676tEtQlsomqX.kdKSTh2omuotBDs7?startTime=1644610038000)
 [Feb 9](https://illinois.zoom.us/rec/share/LaB7CflkvxQ4Zs-VoRTZ91QwYZHKB8k356PFqK36QrCeLfE-y9uAvFnfyjkthiO5.mrm_EPx0tNDfaenF?startTime=1644437009000)
 [Feb 9 whiteboard]({{site.baseurl}}/assets/CS422-Feb_9_whiteboard.jpg)
 [Feb 4](https://illinois.zoom.us/rec/share/d7_AFFnzp3z_GWk3cdRXmOi0lyb_HPW2EkUFSaH8G-XmE6BINyzbpnbVAIlHjITL.XsF2F1FzfukbxAOs?startTime=1644004900000)
