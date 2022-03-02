@@ -94,3 +94,10 @@ Note: See the [callCC (substitution)](https://github.com/kframework/k/tree/maste
 ***Exercise 2 (10 points):*** The current `halt;` statement of IMP++ only halts the current thread.  Define an `abort;` statement which halts the entire program.
 
 Note: See the [abort](https://github.com/runtimeverification/k/tree/master/k-distribution/pl-tutorial/1_k/4_imp%2B%2B/lesson_7/exercises/abort) exercise in the nightly built for details and test programs.
+
+---
+
+- ***SIMPLE: Designing Imperative Programming Languages***
+  - [SIMPLE untyped, statically typed, and dynamically typed](https://kframework.org/k-distribution/pl-tutorial/) (Part 7 of the K Tutorial). Click [here](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/2_languages/1_simple) to see the code on GitHub.
+  - [K Tutorial, Part 5: Defining type systems](https://kframework.org/k-distribution/pl-tutorial/) (this is optional at this stage, but instructive for better understanding the static semantics; read at least Lesson 1, and skim Lesson 6). Click [here](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/1_k/5_types) to see the code on GitHub. 
+  - [K Overview]({{site.baseurl}}/assets/CS422-K-Overview.pdf) paper, which also defines and explains SIMPLE. Sections 3 and 4 (the other sections were covered above)
