@@ -14,6 +14,7 @@ Complete lecture notes will be posted here.
 
 ### Lecture Recordings
 
+[Mar 9](https://illinois.zoom.us/rec/share/Su6_mpih0yfgvPhm6GuFiCL7TvKqL0JAuhnVmTAu1b6ah0VAZOCOJ0DT7Aa7UnD_.mswM7UVJZkq2mZgI?startTime=1646856272000)
 [Mar 4](https://illinois.zoom.us/rec/share/dURgBvIUSTuQWpSr7dy3itsqOjJEeFDDuOKOJEIDAXMXbTrQEX80qDiH5y3CnQdj.Yu1VhADofWwIlQ2d?startTime=1646424159000)
 [Mar 2](https://illinois.zoom.us/rec/share/-VcriW7uP5cbIkF_eTHdZtCe6Qx0W0DFDMIHm4C7tfQ6qV3ewlRt2A6LTySrF6iT.6vCVJEIsPVTaD7JX?startTime=1646251243000)
 [Feb 25](https://illinois.zoom.us/rec/share/Hw2pkOjLs1tvIReSrk50oxOTlqUH81uBsVhhivE8l7PdddVyElnXiRo5zAN3Mw6B.2VJnoEYQ628XIruC?startTime=1645819308000)
