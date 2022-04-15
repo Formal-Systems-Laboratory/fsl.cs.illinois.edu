@@ -138,7 +138,7 @@ For each of the problems, also provide one test program which should succeed and
 
 
 ---
-<b><em><span style="color:red">HW4 (due date TBD)</span></em></b>
+<b><em><span style="color:red">HW5 (due date: : Friday, April 22, AoE)</span></em></b>
 
 ***Exercise 1 (10 points):*** Currently, all class members (fields and/or methods) are public in KOOL. Sometimes we want to keep members of a class private, in the sense that subclasses do not have direct access to those members. This exercise asks you to add private members to untyped KOOL. Syntactically, you should allow a new keyword, "private", to optionally prepend member declarations. For example, `private var x=10, y=10;` or `private method f(x,y) {...}`.
 
