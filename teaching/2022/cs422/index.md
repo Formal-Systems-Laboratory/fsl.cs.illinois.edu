@@ -14,6 +14,8 @@ Complete lecture notes will be posted here.
 
 ### Lecture Recordings
 
+[Apr 13](https://illinois.zoom.us/rec/share/AhBcY4gx_rBrBS6dRQPZMS9yd2wMHq8zb8DNn8gUi4X5DJkEsvPo9TZI9-MYKlZJ.VCRwxuLTDfWjVc5S?startTime=1649444747000)
+[Apr 8](https://illinois.zoom.us/rec/share/AhBcY4gx_rBrBS6dRQPZMS9yd2wMHq8zb8DNn8gUi4X5DJkEsvPo9TZI9-MYKlZJ.VCRwxuLTDfWjVc5S?startTime=1649444747000)
 [Apr 6 - forgot to share screen :(](https://illinois.zoom.us/rec/share/W8glUOhtEG8C_46mVEERx-1vWJbxZGRWMosClrkr5DFP-iv4b7eRRTFRKY0mfTI_.UbgQs_QG9jcGbXW0?startTime=1649271712000)
 [Apr 1](https://illinois.zoom.us/rec/share/aku8dDCpFpripnu7pzS5z7320Fq_Gz1XY09p2xrYGohsyXdIk0EBdjJtSoAvoG_I.whEwX_CZEB7enwFT?startTime=1648839796000)
 [Mar 25](https://illinois.zoom.us/rec/share/QJbquIy4Bxj12TpTAX8WWyeo88G1u3nS0c3Q1bAuu-xsHMpV-UT0nlGpieps2D8S.6Z9y5MYr2DQr0O2G?startTime=1648234885000)
@@ -133,3 +135,19 @@ For each of the problems, also provide one test program which should succeed and
 ---
 - ***KOOL: Designing Object-Oriented Programming Languages***
   - [KOOL untyped, statically typed, and dynamically typed](https://kframework.org/k-distribution/pl-tutorial) (Part 8 of the K Tutorial). Click [here](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/2_languages/2_kool) to see the code on GitHub. 
+
+
+---
+<b><em><span style="color:red">HW4 (due date TBD)</span></em></b>
+
+***Exercise 1 (10 points):*** Currently, all class members (fields and/or methods) are public in KOOL. Sometimes we want to keep members of a class private, in the sense that subclasses do not have direct access to those members. This exercise asks you to add private members to untyped KOOL. Syntactically, you should allow a new keyword, "private", to optionally prepend member declarations. For example, `private var x=10, y=10;` or `private method f(x,y) {...}`.
+
+Note: See the [private-members](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/2_languages/2_kool/1_untyped/exercises/private-members) exercise for untyped KOOL in the nightly built for details and test programs.
+
+***Exercise 2 (10 points):*** Same as Exercise 1, but for dynamically typed KOOL.
+
+Note: See the [private-members](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/2_languages/2_kool/2_typed/1_dynamic/exercises/private-members) exercise for dynamically typed KOOL in the nightly built for details and test programs.
+
+***Exercise 3 (10 points):*** Same as Eercises 1 and 2, but for statically typed KOOL.
+
+Note: See the [private-members](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/2_languages/2_kool/2_typed/2_static/exercises/private-members) exercise for statically typed KOOL in the nightly built for details and test programs.
