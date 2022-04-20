@@ -14,6 +14,7 @@ Complete lecture notes will be posted here.
 
 ### Lecture Recordings
 
+[Apr 15](https://illinois.zoom.us/rec/share/v1yi45DA38n8jdzljNqr4EAH6QeYr72_Uzx0pzk6joG5wbRgmGEuOPUoAOBPQE6Y.2bibtXTI4lh_a-Vd?startTime=1650049548000)
 [Apr 13](https://illinois.zoom.us/rec/share/AhBcY4gx_rBrBS6dRQPZMS9yd2wMHq8zb8DNn8gUi4X5DJkEsvPo9TZI9-MYKlZJ.VCRwxuLTDfWjVc5S?startTime=1649444747000)
 [Apr 8](https://illinois.zoom.us/rec/share/AhBcY4gx_rBrBS6dRQPZMS9yd2wMHq8zb8DNn8gUi4X5DJkEsvPo9TZI9-MYKlZJ.VCRwxuLTDfWjVc5S?startTime=1649444747000)
 [Apr 6 - forgot to share screen :(](https://illinois.zoom.us/rec/share/W8glUOhtEG8C_46mVEERx-1vWJbxZGRWMosClrkr5DFP-iv4b7eRRTFRKY0mfTI_.UbgQs_QG9jcGbXW0?startTime=1649271712000)
@@ -151,3 +152,9 @@ Note: See the [private-members](https://github.com/kframework/k/tree/master/k-di
 ***Exercise 3 (10 points):*** Same as Eercises 1 and 2, but for statically typed KOOL.
 
 Note: See the [private-members](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/2_languages/2_kool/2_typed/2_static/exercises/private-members) exercise for statically typed KOOL in the nightly built for details and test programs.
+
+---
+
+- ***FUN: Designing Functional Programming Languages***
+  - [FUN untyped](https://kframework.org/k-distribution/pl-tutorial/) (Part 9 of the K Tutorial, without the type inferencer). Click [here](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/2_languages/3_fun) to see the code on GitHub. 
+
