@@ -14,6 +14,7 @@ Complete lecture notes will be posted here.
 
 ### Lecture Recordings
 
+[Apr 27](https://illinois.zoom.us/rec/share/yjZWIWI3-mdqv_9Q_qUKEX_TeLZhVWWUQB4yRclydqX9SQ1YvWz2CJRTPVmevOMF.EWI7Og0bCej1UuLN?startTime=1651086290000)
 [Apr 20](https://illinois.zoom.us/rec/share/38iVpVWft_E_pHaZuDAmA6WB0ZG6NT_kzC-iDo8ZeTr-82bg2Njx8zpPZW83GP8.kMMZtWRJTzkLQ033?startTime=1650481478000)
 [Apr 15](https://illinois.zoom.us/rec/share/v1yi45DA38n8jdzljNqr4EAH6QeYr72_Uzx0pzk6joG5wbRgmGEuOPUoAOBPQE6Y.2bibtXTI4lh_a-Vd?startTime=1650049548000)
 [Apr 13](https://illinois.zoom.us/rec/share/AhBcY4gx_rBrBS6dRQPZMS9yd2wMHq8zb8DNn8gUi4X5DJkEsvPo9TZI9-MYKlZJ.VCRwxuLTDfWjVc5S?startTime=1649444747000)
@@ -159,3 +160,21 @@ Note: See the [private-members](https://github.com/kframework/k/tree/master/k-di
 - ***FUN: Designing Functional Programming Languages***
   - [FUN untyped](https://kframework.org/k-distribution/pl-tutorial/) (Part 9 of the K Tutorial, without the type inferencer). Click [here](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/2_languages/3_fun) to see the code on GitHub. 
 
+---
+<b><em><span style="color:red">HW6 (May 6, AoE; can think of it as a take-home final, whose weigh is same as a normal HW)</span></em></b>
+
+***Exercise 1 (10 points):*** Add a `let*` construct to environment-based FUN. `let*` has the same syntax as `let`, but it applies the bindings in the order in which they are given. For example, the program `let* x=1 and y=x in y` is well defined and evaluates to `1`, but it would be undefined if we replaced `let*` with `let`.
+
+Note: See the [letstar](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/2_languages/3_fun/1_untyped/1_environment/exercises/letstar) exercise for details and test programs.
+
+***Exercise 2 (10 points):*** Add interactive `read` and `print` to environment-based FUN.
+
+Note: See the [io](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/2_languages/3_fun/1_untyped/1_environment/exercises/io) exercise for details and test programs.
+
+***Exercise 3 (10 points):*** Add thread creation, with `spawn`, and synchronization, with `join`, to environment-based FUN.
+
+Note: See the [spawn-join](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/2_languages/3_fun/1_untyped/1_environment/exercises/spawn-join) exercise for details and test programs.
+
+***Exercise 4 (10 points):*** Extend the semantics of `letrec` in substitution-based FUN, which currently can only take one binding, to arbitrarily many bindings.
+
+Note: See the [letrec](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/2_languages/3_fun/1_untyped/2_substitution/exercises/letrec) exercise for details and test programs.
