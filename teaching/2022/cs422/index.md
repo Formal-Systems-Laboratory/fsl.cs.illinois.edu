@@ -141,7 +141,7 @@ For each of the problems, also provide one test program which should succeed and
 
 
 ---
-<b><em><span style="color:red">HW5 (due date: : Friday, April 22, AoE)</span></em></b>
+<b><em><span style="color:red">HW5 (due date: Friday, April 22, AoE)</span></em></b>
 
 ***Exercise 1 (10 points):*** Currently, all class members (fields and/or methods) are public in KOOL. Sometimes we want to keep members of a class private, in the sense that subclasses do not have direct access to those members. This exercise asks you to add private members to untyped KOOL. Syntactically, you should allow a new keyword, "private", to optionally prepend member declarations. For example, `private var x=10, y=10;` or `private method f(x,y) {...}`.
 
@@ -161,7 +161,7 @@ Note: See the [private-members](https://github.com/kframework/k/tree/master/k-di
   - [FUN untyped](https://kframework.org/k-distribution/pl-tutorial/) (Part 9 of the K Tutorial, without the type inferencer). Click [here](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/2_languages/3_fun) to see the code on GitHub. 
 
 ---
-<b><em><span style="color:red">HW6 (May 6, AoE; can think of it as a take-home final, whose weigh is same as a normal HW)</span></em></b>
+<b><em><span style="color:red">HW6 (due date: Friday, May 6, AoE; can think of it as a take-home final, whose weigh is same as a normal HW)</span></em></b>
 
 ***Exercise 1 (10 points):*** Add a `let*` construct to environment-based FUN. `let*` has the same syntax as `let`, but it applies the bindings in the order in which they are given. For example, the program `let* x=1 and y=x in y` is well defined and evaluates to `1`, but it would be undefined if we replaced `let*` with `let`.
 
