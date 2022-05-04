@@ -179,3 +179,33 @@ Note: See the [spawn-join](https://github.com/kframework/k/tree/master/k-distrib
 ***Exercise 4 (10 points):*** Extend the semantics of `letrec` in substitution-based FUN, which currently can only take one binding, to arbitrarily many bindings.
 
 Note: See the [letrec](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/2_languages/3_fun/1_untyped/2_substitution/exercises/letrec) exercise for details and test programs.
+
+---
+
+- [K Tutorial, Part 5: Defining type systems](https://kframework.org/k-distribution/pl-tutorial/) (useful to define the type inferencer of FUN next). Click [here](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/1_k/5_types) to see the code on GitHub.
+
+---
+<b><em><span style="color:red">Extracredit-1 (due date: Thursday, May 12, AoE)</span></em></b>
+
+The exercise is to develop a let-polymorphic type inferencer for FUN. Use the existing syntax of FUN. If correct, your type inferencer should type all the existing FUN programs.
+
+You are only required to do it using the implicit-constraint style, like in `1_k/5_types/lesson_9.5`.
+
+Explain why the type inferencer you just defined is unsound w.r.t. references (yes, most likely it is unsound!), and fix it.
+
+Note: See the [fun-type-inferencer](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/2_languages/3_fun/2_type-inference/exercises/fun-type-inferencer) exercise for details and test programs.
+
+---
+
+- ***LOGIK: Designing Logic Programming Languages***
+  - [Logik](https://kframework.org/k-distribution/pl-tutorial/) (Part 10 of the K Tutorial). Click [here](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/2_languages/4_logik) to see the code on GitHub. 
+
+
+---
+<b><em><span style="color:red">Extracredit-2 (due date: Thursday, May 12, AoE)</span></em></b>
+
+The exercise is to extend LOGIK with several features.
+
+Note: See the [LOGIK extended](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/2_languages/4_logik/extended/exercises/logik-extended) exercise for details and test programs.
+
+---
