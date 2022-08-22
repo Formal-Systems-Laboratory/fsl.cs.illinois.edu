@@ -7,8 +7,6 @@ title: Xiaohong Chen's Home Page
 
 ![Xiaohong Chen]({{site.baseurl}}/assets/photos/xiaohong-chen-photo.png)
 
-## [Click to Read My Thesis!](https://fsl.cs.illinois.edu/people/xiaohong-chen/thesis.html)
-
 ## My Name
 
 - 陈霄泓
