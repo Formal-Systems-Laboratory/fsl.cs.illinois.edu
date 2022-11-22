@@ -1,4 +1,6 @@
 ---
-layout: forward
-target: https://xchen.page/
+layout: default
+title: Xiaohong Chen's Home Page
 ---
+
+visit my new homepage at https://xchen.page/
