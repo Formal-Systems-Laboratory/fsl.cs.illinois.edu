@@ -16,21 +16,12 @@ In the FSL, we design and develop:
 
 all aiming at increasing the quality of computing systems. 
 
-# Current Research Areas
-
+Our current research areas are:
 - [Programming Language Design and Semantics]({{site.baseurl}}/projects/pl/index.html)
 - [Runtime Verification]({{site.baseurl}}/projects/rv/index.html)
 - [Behavioral Specification]({{site.baseurl}}/projects/circ/index.html)
 
-You want to work on these topics? See [Grigore Rosu]({{site.baseurl}}/people/grigore-rosu/index.html)'s list of [Open Problems and Challenges]({{site.baseurl}}/other-pages/open-problems.html).
-
-# News
-
-{% assign news = site.data.news | slice: 0,5 %}
-{% for item in  news %} * **{{item.date}}:** {{item.markdown}}
-{% endfor %} <!--  -->
-* [All news]({{site.baseurl}}/news.html)
-
+You want to work on these topics? See [Grigore Rosu]({{site.baseurl}}/people/grigore-rosu/index.html)'s list of [Open Problems and Challenges](https://hdl.handle.net/2142/95775).
 
 [Department of Computer Science]: https://cs.illinois.edu
 [University of Illinois at Urbana-Champaign]: https://illinois.edu
