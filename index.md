@@ -4,7 +4,7 @@ tag: k
 ---
 
 Welcome to the **Formal Systems Laboratory (FSL)** of the [Department of Computer
-Science] at the [University of Illinois at Urbana-Champaign] (UIUC). FSL was
+Science] at the [University of Illinois Urbana-Champaign] (UIUC). FSL was
 founded in 2002 by [Grigore Rosu]({{site.baseurl}}/people/grigore-rosu/index.html), when he joined UIUC 
 (from [NASA Ames](http://www.nasa.gov/centers/ames/home/index.html)). 
 In the FSL, we design and develop:
@@ -24,6 +24,6 @@ Our current research areas are:
 You want to work on these topics? See [Grigore Rosu]({{site.baseurl}}/people/grigore-rosu/index.html)'s list of [Open Problems and Challenges](https://hdl.handle.net/2142/95775).
 
 [Department of Computer Science]: https://cs.illinois.edu
-[University of Illinois at Urbana-Champaign]: https://illinois.edu
+[University of Illinois Urbana-Champaign]: https://illinois.edu
 
 
