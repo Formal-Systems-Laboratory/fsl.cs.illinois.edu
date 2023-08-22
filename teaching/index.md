@@ -7,7 +7,13 @@ title: Grigore Rosu's Teaching
 
 (back to [Grigore Rosu]({{site.baseurl}}/people/grigore-rosu/index.html)'s home page)
 
+## 2023
+- Fall 2022:
+  [CS422]({{site.baseurl}}/teaching/2023/cs422/) - Programming Language Design
+- Spring 2023: Sabbatical
+
 ## 2022
+- Fall 2022: Sabbatical
 - Spring 2022:
   [CS422]({{site.baseurl}}/teaching/2022/cs422/) - Programming Language Design
 
