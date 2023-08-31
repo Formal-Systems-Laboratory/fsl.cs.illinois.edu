@@ -35,7 +35,7 @@ The links below provide you with useful material for this class, including compl
 
 
 ---
-<b><em><span style="color:red">HW1 (due date: ..., AoE)</span></em></b>
+<b><em><span style="color:red">HW1 (due date: Thursday, Sept 7th, AoE)</span></em></b>
 
 ***Exercise 1 (10 points):*** Modify IMP (its Big-Step and its Small-Step SOS) to halt when a division-by-zero takes place, returning a configuration holding the state in which the division by zero took place.
 
