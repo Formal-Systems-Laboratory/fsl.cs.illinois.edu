@@ -14,7 +14,7 @@ Complete lecture notes will be posted here.
 
 ### Lecture Recordings
 
-[August 22](https:...)
+[August 29]([https:...](https://illinois.zoom.us/rec/share/YF_yxlwPFwEt0ycyGhHNtc8lqLBm3aGQUWGBnBGjyaVncjTHPlzEKPBxk_41fGVk.5o6SUHkt8dpyv7RF))
 
 ## Course Description
 
