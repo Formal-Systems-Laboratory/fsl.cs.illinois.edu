@@ -57,7 +57,7 @@ The links below provide you with useful material for this class, including compl
   - [K Overview]({{site.baseurl}}/assets/CS422-K-Overview.pdf) paper to learn more about K. Sections 1 and 2 (the other sections are optional now; they are covered below)
 
 ---
-<b><em><span style="color:red">HW2 (due date: Tuesday September 26, AoE)</span></em></b>
+<b><em><span style="color:red">HW2 (due date: Tuesday, September 26, AoE)</span></em></b>
 
 ***Exercise 1 (10 points):*** The current K LAMBDA semantics of mu (in Lesson 8) is based on substitution, and then letrec is defined as a derived operation using mu. Give mu a different semantics, as a derived construct by translation into other LAMBDA constructs, like we defined letrec in Lesson 7. To test it, use the same definition of letrec in terms of mu (from Lesson 8) and write 3 recursive programs, like the provided factorial-letrec.lambda.
 
