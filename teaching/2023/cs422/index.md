@@ -57,5 +57,20 @@ The links below provide you with useful material for this class, including compl
   - [K Overview]({{site.baseurl}}/assets/CS422-K-Overview.pdf) paper to learn more about K. Sections 1 and 2 (the other sections are optional now; they are covered below)
 
 ---
+<b><em><span style="color:red">HW2 (due date: Tuesday September 26, AoE)</span></em></b>
+
+***Exercise 1 (10 points):*** The current K LAMBDA semantics of mu (in Lesson 8) is based on substitution, and then letrec is defined as a derived operation using mu. Give mu a different semantics, as a derived construct by translation into other LAMBDA constructs, like we defined letrec in Lesson 7. To test it, use the same definition of letrec in terms of mu (from Lesson 8) and write 3 recursive programs, like the provided factorial-letrec.lambda.
+
+Note: See the [mu-derived](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/1_k/1_lambda/lesson_8/exercises/mu-derived) exercise in the nightly built for details and test programs.
+
+***Exercise 2 (10 points):*** Modify the K definition of IMP to not automatically initialize variables to 0. Instead, declared variables should stay uninitialized until assigned a value, and the execution should get stuck when an uninitialized variable is looked up.
+
+Note: See the [uninitialized-variables](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/1_k/2_imp/lesson_4/exercises/uninitialized-variables) exercise in the nightly built for details and test programs.
+
+***Exercise 3 (10 points):*** Mofify IMP so that the K "followed by" arrow, `~>`, does not explicitly occur in the definition (it currently occurs in the semantics of sequential composition). Hint: make sequential composition `strict(1)` or `seqstrict`, and have statements reduce to "{}" instead of ".", ... and don't forget to make "{}" a KResult (you may need a new syntactic category for that, which only includes "{}" and is included in KResult).
+
+Note: See the [purely-syntactic](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/1_k/2_imp/lesson_4/exercises/purely-syntactic) exercise in the nightly built for details and test programs.
+
+---
 ... more to come ...
 ---
