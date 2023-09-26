@@ -88,7 +88,7 @@ Note: See the [abort](https://github.com/runtimeverification/k/tree/master/k-dis
 ---
 
 - ***Matching Logic - A Minimal Foundation for Programming Languages***
-  - Optional, but informative.  Matching logic is the logic undelying K.
+  - Optional, but informative.  Matching logic is the logic underlying K.
   - http://matching-logic.org
   - [Marktoberdorf Lecture Notes](https://events.model.in.tum.de/mod23/lectures.html)
 
