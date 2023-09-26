@@ -72,5 +72,20 @@ Note: See the [uninitialized-variables](https://github.com/kframework/k/tree/mas
 Note: See the [purely-syntactic](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/1_k/2_imp/lesson_4/exercises/purely-syntactic) exercise in the nightly built for details and test programs.
 
 ---
+<b><em><span style="color:red">HW3 (due date: Thursday October 5, AoE)</span></em></b>
+
+***Exercise 1 (10 points):*** Define a variant of callcc, say callCC, which never returns to the current continuation unless a value is specifically passed to that continuation. Can you define them in terms of each other? Do these in both the substitution and the environment-based definitions.
+
+Note: See the [callCC (substitution)](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/1_k/3_lambda%2B%2B/lesson_1/exercises/callCC), 
+[from-call-CC-to-callcc (substitution)](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/1_k/3_lambda%2B%2B/lesson_1/exercises/from-call-CC-to-callcc), [from-callcc-to-call-CC(substitution)](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/1_k/3_lambda%2B%2B/lesson_1/exercises/from-callcc-to-call-CC), 
+[callCC (environment)](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/1_k/3_lambda%2B%2B/lesson_6/exercises/callCC), 
+[from-call-CC-to-callcc (environment)](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/1_k/3_lambda%2B%2B/lesson_6/exercises/from-call-CC-to-callcc), and [from-callcc-to-call-CC (environment)](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/1_k/3_lambda%2B%2B/lesson_6/exercises/from-callcc-to-call-CC) exercises in the nightly built for details and test programs.
+
+***Exercise 2 (10 points):*** The current `halt;` statement of IMP++ only halts the current thread.  Define an `abort;` statement which halts the entire program.
+
+Note: See the [abort](https://github.com/runtimeverification/k/tree/master/k-distribution/pl-tutorial/1_k/4_imp%2B%2B/lesson_7/exercises/abort) exercise in the nightly built for details and test programs.
+
+---
+
 ... more to come ...
 ---
