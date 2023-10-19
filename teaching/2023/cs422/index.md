@@ -16,7 +16,8 @@ Complete lecture notes will be posted here.
 
 [Aug 29](https://illinois.zoom.us/rec/share/YF_yxlwPFwEt0ycyGhHNtc8lqLBm3aGQUWGBnBGjyaVncjTHPlzEKPBxk_41fGVk.5o6SUHkt8dpyv7RF)
 [Sept 5](https://illinois.zoom.us/rec/share/0Zs4EKFBAIYZlhPFYfJE11oUYIuELzV20AJKbt3gkVaGQJiS-__5cqQKpLDP9yG4.eLre3mydJ7zjS6Fg)
-
+[Oct 17](https://illinois.zoom.us/rec/share/lFqYsOz4GO4rwBFhEE3W2c7-vUjbqE6MF3B3_sHudixoR8VgvKn1Fnl81UukZwYW.CSH2BkBIuslILSHX)
+[Oct 19](https://illinois.zoom.us/rec/share/GLv8EfgUmVn0dAufBntk-GGc37Zzm7kio_do7-ZlUcLVTCh7NvkWixfyyDRYs1wo.hWPyBh0bdoOf9-IK)
 
 ## Course Description
 
