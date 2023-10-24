@@ -101,7 +101,7 @@ Note: See the [abort](https://github.com/runtimeverification/k/tree/master/k-dis
   - [K Overview]({{site.baseurl}}/assets/CS422-K-Overview.pdf) paper, which also defines and explains SIMPLE. Sections 3 and 4 (the other sections were covered above)
 
 ---
-<b><em><span style="color:red">HW4 (due date: Friday, April 1st, AoE --- extended by 3 days to Monday, April 4th, AoE)</span></em></b>
+<b><em><span style="color:red">HW4 (due date: Tuesday, Oct 31st, AoE</span></em></b>
 
 ***Exercise 1 (10 points):*** Add `break;` and `continue;` to untyped SIMPLE. Just take the semantics of these from C/C++/Java, if uncertain. Do only the simple, unlabeled ones, which only break/continue the innermost loop. One thing to think about: do you still want to desugar the for-loop into a while-loop as we do it now?
 
