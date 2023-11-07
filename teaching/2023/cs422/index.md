@@ -122,5 +122,11 @@ Note: See the [no-duplicate-declarations](https://github.com/kframework/k/tree/m
 For each of the problems, also provide one test program which should succeed and one which should fail. You will get two extra-points if any of your tests break everybody's definition (except potentially yours). If you handle more than one succeeding and one failing test, then I will randomly choose one of each.
 
 ---
+- ***KOOL: Designing Object-Oriented Programming Languages***
+  - [KOOL untyped, statically typed, and dynamically typed](https://kframework.org/k-distribution/pl-tutorial) (Part 8 of the K Tutorial). Click [here](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/2_languages/2_kool) to see the code on GitHub. 
+
+
+---
+---
 ... more to come ...
 ---
