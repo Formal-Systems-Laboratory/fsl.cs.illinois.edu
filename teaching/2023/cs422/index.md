@@ -125,6 +125,25 @@ For each of the problems, also provide one test program which should succeed and
 - ***KOOL: Designing Object-Oriented Programming Languages***
   - [KOOL untyped, statically typed, and dynamically typed](https://kframework.org/k-distribution/pl-tutorial) (Part 8 of the K Tutorial). Click [here](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/2_languages/2_kool) to see the code on GitHub. 
 
+---
+<b><em><span style="color:red">HW5 (due date: Tuesday, November 28, AoE)</span></em></b>
+
+***Exercise 1 (10 points):*** Currently, all class members (fields and/or methods) are public in KOOL. Sometimes we want to keep members of a class private, in the sense that subclasses do not have direct access to those members. This exercise asks you to add private members to untyped KOOL. Syntactically, you should allow a new keyword, "private", to optionally prepend member declarations. For example, `private var x=10, y=10;` or `private method f(x,y) {...}`.
+
+Note: See the [private-members](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/2_languages/2_kool/1_untyped/exercises/private-members) exercise for untyped KOOL in the nightly built for details and test programs.
+
+***Exercise 2 (10 points):*** Same as Exercise 1, but for dynamically typed KOOL.
+
+Note: See the [private-members](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/2_languages/2_kool/2_typed/1_dynamic/exercises/private-members) exercise for dynamically typed KOOL in the nightly built for details and test programs.
+
+***Exercise 3 (10 points):*** Same as Eercises 1 and 2, but for statically typed KOOL.
+
+Note: See the [private-members](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/2_languages/2_kool/2_typed/2_static/exercises/private-members) exercise for statically typed KOOL in the nightly built for details and test programs.
+
+---
+
+- ***FUN: Designing Functional Programming Languages***
+  - [FUN untyped](https://kframework.org/k-distribution/pl-tutorial/) (Part 9 of the K Tutorial, without the type inferencer). Click [here](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/2_languages/3_fun) to see the code on GitHub. 
 
 ---
 ---
