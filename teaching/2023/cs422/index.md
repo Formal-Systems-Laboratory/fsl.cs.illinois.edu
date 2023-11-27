@@ -18,7 +18,8 @@ Complete lecture notes will be posted here.
 [Sept 5](https://illinois.zoom.us/rec/share/0Zs4EKFBAIYZlhPFYfJE11oUYIuELzV20AJKbt3gkVaGQJiS-__5cqQKpLDP9yG4.eLre3mydJ7zjS6Fg)
 [Oct 17](https://illinois.zoom.us/rec/share/lFqYsOz4GO4rwBFhEE3W2c7-vUjbqE6MF3B3_sHudixoR8VgvKn1Fnl81UukZwYW.CSH2BkBIuslILSHX)
 [Oct 19](https://illinois.zoom.us/rec/share/GLv8EfgUmVn0dAufBntk-GGc37Zzm7kio_do7-ZlUcLVTCh7NvkWixfyyDRYs1wo.hWPyBh0bdoOf9-IK)
-[Nov 14](https://illinois.zoom.us/rec/share/yk1AL52ZS3Lv8vUlGXNNt6jm3RbM1-hN5bX_JrfOseULf7BBA-uTDFGc-p-me2ee.Uf6ZV4Bf3JMgLvsn).
+[Nov 14](https://illinois.zoom.us/rec/share/yk1AL52ZS3Lv8vUlGXNNt6jm3RbM1-hN5bX_JrfOseULf7BBA-uTDFGc-p-me2ee.Uf6ZV4Bf3JMgLvsn)
+[Nov 16](https://illinois.zoom.us/rec/share/0lpzLqlhvgpjVp9oD2ogSpo8wl5HXqaB_243iLcpWIdk48Z1Y-KP1vyWZ-6pDRY_.lNY_yvUDjdxgOZAt)
 
 
 ## Course Description
