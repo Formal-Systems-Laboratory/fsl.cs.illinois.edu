@@ -149,7 +149,7 @@ Note: See the [private-members](https://github.com/kframework/k/tree/master/k-di
   - [FUN untyped](https://kframework.org/k-distribution/pl-tutorial/) (Part 9 of the K Tutorial, without the type inferencer). Click [here](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/2_languages/3_fun) to see the code on GitHub. 
 
 ---
-<b><em><span style="color:red">HW5 (due date: Tuesday, December 5, AoE)</span></em></b>
+<b><em><span style="color:red">HW6 (due date: Tuesday, December 5, AoE)</span></em></b>
 
 ***Exercise 1 (10 points):*** Add a `let*` construct to environment-based FUN. `let*` has the same syntax as `let`, but it applies the bindings in the order in which they are given. For example, the program `let* x=1 and y=x in y` is well defined and evaluates to `1`, but it would be undefined if we replaced `let*` with `let`.
 
