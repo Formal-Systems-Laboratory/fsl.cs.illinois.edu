@@ -13,7 +13,7 @@ here.
 
 To be used rarely, only when not available (traveling or sick).  Or for office hours:
 
-https://illinois.zoom.us/j/2172447431?pwd=dEtxWmdJR0FYOElUa1ZLL2RJRzdZUT09
+[https://illinois.zoom.us/j/2172447431?pwd=dEtxWmdJR0FYOElUa1ZLL2RJRzdZUT09](https://illinois.zoom.us/j/2172447431?pwd=dEtxWmdJR0FYOElUa1ZLL2RJRzdZUT09)
 
 ## Course Description {#course_description}
 
