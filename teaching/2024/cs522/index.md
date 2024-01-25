@@ -51,3 +51,15 @@ need* and more topics will be added.
 
     -   [slides](CS522-Spring-2024-Maude.pdf) - recommended only for a quick look
     -   [Book material](CS522-Spring-2024-Maude-book.pdf) - recommended
+ 
+-   ### HW1 (due Thursday, September 16) {#hw1}
+
+    The following exercises are from the book material above. Do them only in
+    Maude (that is, *not* on paper) by modifying [the provided Maude code for
+    HW1](CS522-Spring-2024-Maude-HW1.zip): Exercise 56 (page 137); Exercise 70
+    (page 155).
+
+    In case you are not familiar with Maude, you are encouraged to do the
+    following exercises to warm-up (but please do not include them as part of
+    your HW1 submission): Exercise 30; Exercise 32; Exercise 33; Exercise 35;
+    Exercise 36. All at pages 80/81.
