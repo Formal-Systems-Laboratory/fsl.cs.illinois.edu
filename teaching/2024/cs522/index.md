@@ -15,6 +15,8 @@ To be used rarely, only when not available (traveling or sick).  Or for office h
 
 [https://illinois.zoom.us/j/2172447431?pwd=dEtxWmdJR0FYOElUa1ZLL2RJRzdZUT09](https://illinois.zoom.us/j/2172447431?pwd=dEtxWmdJR0FYOElUa1ZLL2RJRzdZUT09)
 
+### Lecture Recordings
+
 [Jan 23](https://illinois.zoom.us/rec/share/Qb0Bwcu7Ow04XuUKsHti894PgwRmQhZcC5e-FP5y05NdKHVMJU9irvQw0UfNeSfT.RONFV3eANEMYo4dq)
 
 ## Course Description {#course_description}
