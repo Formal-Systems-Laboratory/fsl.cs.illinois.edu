@@ -52,7 +52,7 @@ need* and more topics will be added.
     -   [slides](CS522-Spring-2024-Maude.pdf) - recommended only for a quick look
     -   [Book material](CS522-Spring-2024-Maude-book.pdf) - recommended
  
--   ### HW1 (due Thursday, September 16) {#hw1}
+-   ### HW1 (due Thursday, February 1st, AoE) {#hw1}
 
     The following exercises are from the book material above. Do them only in
     Maude (that is, *not* on paper) by modifying [the provided Maude code for
