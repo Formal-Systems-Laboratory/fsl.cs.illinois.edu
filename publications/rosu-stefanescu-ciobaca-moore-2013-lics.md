@@ -50,7 +50,6 @@ bib:
   - program_verification
   - programming_languages
   date: 2013-06-01
-  doi: ''
   id: rosu-stefanescu-ciobaca-moore-2013-lics
   month: June
   pages: 358-367
