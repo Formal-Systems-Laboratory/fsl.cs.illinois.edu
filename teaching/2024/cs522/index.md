@@ -72,5 +72,5 @@ need* and more topics will be added.
     paper, by modifying [the provided Maude code for
     HW2](CS522-Spring-2024-Maude-HW2.zip)).
 
--   [Book material on IMP++: Challenging Big-Step SOS, Small-Step SOS, and
+-   (not needed for HW2) [Book material on IMP++: Challenging Big-Step SOS, Small-Step SOS, and
     Denotational Semantics](CS522-Spring-2024-IMP++.pdf)
