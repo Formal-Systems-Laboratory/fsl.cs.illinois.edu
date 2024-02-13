@@ -74,3 +74,13 @@ need* and more topics will be added.
 
 -   (not needed for HW2) [Book material on IMP++: Challenging Big-Step SOS, Small-Step SOS, and
     Denotational Semantics](CS522-Spring-2024-IMP++.pdf)
+
+...
+
+-  [Book material on Modular SOS, Evaluation Contexts, and the CHAM](CS522-Spring-2024-MSOS-RSEC-CHAM.pdf)
+
+...
+
+-   Category theory: definition, diagrams, cones and limits, exponentials
+
+    -   [Slides](CS522-Spring-2024-Category-Theory-slides.pdf)
