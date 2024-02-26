@@ -73,14 +73,27 @@ need* and more topics will be added.
     paper, by modifying [the provided Maude code for
     HW2](CS522-Spring-2024-Maude-HW2.zip)).
 
--   (not needed for HW2) [Book material on IMP++: Challenging Big-Step SOS, Small-Step SOS, and
+-   [Book material on IMP++: Challenging Big-Step SOS, Small-Step SOS, and
     Denotational Semantics](CS522-Spring-2024-IMP++.pdf)
 
-...
+-   ### HW3 (due Tuesday, March 5)
+
+    Combine all the individual extensions of IMP in [the provided Maude code for
+    HW3 (similar to that provided for HW2)](CS522-Spring-2024-Maude-HW3.zip) into the IMP++ language. Read the book
+    material above for all the technical details. You should create a subfolder
+    of imp called 6-imp++, and that should have four subfolders, one for each
+    semantic style. Provide also three IMP++ programs.  Note: Big-step and Denotational will be the most tedious, because they are the least modular.  Pick only one of them, and do the other for fun and extra-credit (if you want it).
 
 -  [Book material on Modular SOS, Evaluation Contexts, and the CHAM](CS522-Spring-2024-MSOS-RSEC-CHAM.pdf)
 
-...
+-   ### HW4 (due Tuesday, March 12)
+
+    Same as HW3 but for the three additional semantic approaches discussed in the
+    lecture notes above: MSOS, RSEC, and CHAM. Use
+    [this provided Maude code for HW4](CS522-Spring-2024-Maude-HW4.zip).
+    Handle also a short essay discussing the advantages and limitations of each of
+    the semantic approaches discussed so far in class, assigning a (justified) score
+    between 1 and 10 to each of them.
 
 -   Category theory: definition, diagrams, cones and limits, exponentials
 
