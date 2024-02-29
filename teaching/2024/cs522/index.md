@@ -98,3 +98,11 @@ need* and more topics will be added.
 -   Category theory: definition, diagrams, cones and limits, exponentials
 
     -   [Slides](CS522-Spring-2024-Category-Theory-slides.pdf)
+
+    -   [Hand written notes on category theory properties](CS522-Spring-2024-HandWritten-Category-Theory.zip)
+
+-   Lambda Calculus and Combinatory Logic
+
+    - [Slides](CS522-Spring-2024-Lambda-slides.pdf)
+
+    - [Book material on Lambda Calculus and Combinatory Logic](CS522-Spring-2024-Lambda.pdf)
