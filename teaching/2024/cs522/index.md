@@ -86,7 +86,7 @@ need* and more topics will be added.
 
 -  [Book material on Modular SOS, Evaluation Contexts, and the CHAM](CS522-Spring-2024-MSOS-RSEC-CHAM.pdf)
 
--   ### HW4 (due Tuesday, March 12)
+-   ### HW4 (due Thursday, March 21 - extended deadline)
 
     Same as HW3 but for the three additional semantic approaches discussed in the
     lecture notes above: MSOS, RSEC, and CHAM. Use
@@ -106,3 +106,7 @@ need* and more topics will be added.
     - [Slides](CS522-Spring-2024-Lambda-slides.pdf)
 
     - [Book material on Lambda Calculus and Combinatory Logic](CS522-Spring-2024-Lambda.pdf)
+
+-   Simply-Typed Lambda Calculus
+    * Basic notions: type system, equational semantics, models, completeness.  [Slides](CS522-Spring-2024-Simply-Typed-Lambda-Calculus.pdf)
+    * Cartesian Closed Categories as models for simply-typed lambda-calculus.  [Slides](CS522-Spring-2024-PL-CCC.pdf)
