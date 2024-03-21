@@ -19,6 +19,7 @@ To be used rarely, only when not available (traveling or sick).  Or for office h
 
 [Jan 23](https://illinois.zoom.us/rec/share/Qb0Bwcu7Ow04XuUKsHti894PgwRmQhZcC5e-FP5y05NdKHVMJU9irvQw0UfNeSfT.RONFV3eANEMYo4dq)
 [Feb 20](https://illinois.zoom.us/rec/share/3adC_b6gC4o6-kdR3etwJO3dVKwmhzdN5v-5bHvM9AE1CXm5weZhp9buSK6L-m5a.m2CzO5XoOJjfKtzo)
+[Mar 21](https://illinois.zoom.us/rec/share/TiVMBw7KesFPXSTNU5RCr57A8uXsNc7-0w70iZJYclRFZdxcgD7P7eNqQlBPiwHs.Zq-oGtFewgq8kvos)
 
 ## Course Description {#course_description}
 
