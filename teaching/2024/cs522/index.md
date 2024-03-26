@@ -111,3 +111,7 @@ need* and more topics will be added.
 -   Simply-Typed Lambda Calculus
     * Basic notions: type system, equational semantics, models, completeness.  [Slides](CS522-Spring-2024-Simply-Typed-Lambda-Calculus.pdf)
     * Cartesian Closed Categories as models for simply-typed lambda-calculus.  [Slides](CS522-Spring-2024-PL-CCC.pdf)
+
+- Recursion, Types, Polymorphism
+    * Recursion and Types. [Slides](CS522-Spring-2024-Recursion.pdf)
+    * Polymorphism. [Slides](CS522-Spring-2024-Polymorphism.pdf)
