@@ -108,6 +108,18 @@ need* and more topics will be added.
 
     - [Book material on Lambda Calculus and Combinatory Logic](CS522-Spring-2024-Lambda.pdf)
 
+-   ### HW5 (due Tuesday, April 09, AoE)
+
+    This is a theoretical HW, requiring you to do two proofs using category
+    theory. You are strongly encouraged to do \*all\* the exercises in the
+    slides, especially if you did not have prior experience with category
+    theory. If you do the two exercises perfectly, then anything else you
+    do will count for extra-credit.
+    - (1, easy) Exercise 8 on slide 20 in the
+    [category theory slides](CS522-Spring-2024-Category-Theory-slides.pdf).
+    - (2, harder) Property 1 on "category theory - 3.png" in the
+    [hand written notes on category theory properties](CS522-Spring-2024-HandWritten-Category-Theory.zip); redraw the diagram with the correct objects and morphisms where they are deleted (figuring out the problem/diagram is 50% of a category theory proof).
+
 -   Simply-Typed Lambda Calculus
     * Basic notions: type system, equational semantics, models, completeness.  [Slides](CS522-Spring-2024-Simply-Typed-Lambda-Calculus.pdf)
     * Cartesian Closed Categories as models for simply-typed lambda-calculus.  [Slides](CS522-Spring-2024-PL-CCC.pdf)
