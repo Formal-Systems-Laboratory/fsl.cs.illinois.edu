@@ -124,6 +124,12 @@ need* and more topics will be added.
     * Basic notions: type system, equational semantics, models, completeness.  [Slides](CS522-Spring-2024-Simply-Typed-Lambda-Calculus.pdf)
     * Cartesian Closed Categories as models for simply-typed lambda-calculus.  [Slides](CS522-Spring-2024-PL-CCC.pdf)
 
+-   ### HW6 (due Thursday, April 25, AoE)
+       
+       Complete this [LAMBDA code snippet](CS522-Spring-2024-Lambda-Maude.zip).
+       This covers knowledge about untyped lambda-calculus, fixed-points,
+       combinatory logic, and de Bruijn nameless representations.
+
 - Recursion, Types, Polymorphism
     * Recursion and Types. [Slides](CS522-Spring-2024-Recursion.pdf)
     * Polymorphism. [Slides](CS522-Spring-2024-Polymorphism.pdf)
