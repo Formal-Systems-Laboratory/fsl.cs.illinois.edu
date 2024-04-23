@@ -133,3 +133,32 @@ need* and more topics will be added.
 - Recursion, Types, Polymorphism
     * Recursion and Types. [Slides](CS522-Spring-2024-Recursion.pdf)
     * Polymorphism. [Slides](CS522-Spring-2024-Polymorphism.pdf)
+
+-   ### Extra-Credit (due Friday, May 03, AoE)
+
+    This can be regarded as "Final exam", but it only counts as HW
+    (and not project) extra-credit and has the same weight as any of the
+    previous HWs. If you got a good score so far for the 6 HWs above,
+    then you do not need to do this extra-credit. Choose one, and only
+    one, of the following and do it well (you will get either 10 or 0
+    for this extra-credit problem!):
+    
+    1. Proposition 8 from the slides on simply-typed lambda calculus. Exercises 5 and 6 from the slides on CCCs.
+
+    2. Consider the PCF language with call-by-value (note that the
+       slides above define the call-by-name variant). Give it a small-step,
+       a big-step, and a denotational semantics in Maude, using the
+       representations of these semantic approaches discussed in the first
+       part of the class. Provide also 5 (five) PCF programs that can be
+       used to test all three of your semantics. You can use the builtins
+       provided as part of the previous HWs (you should only need the
+       generic substitution from there).
+    
+    3. This has two problems. The first is to define a type checker for
+       the parametric polymorphic lambda-calculus (or System F). The second
+       is to define a type checker for the subtype polymorphic
+       lambda-calculus. In both cases, make sure that you also include the
+       conditional and a few examples showing that your definition works.
+       Feel free to pick whatever syntax you want for the various
+       constructs (both for terms and for types).
+       
