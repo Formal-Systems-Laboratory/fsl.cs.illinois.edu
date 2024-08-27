@@ -33,6 +33,6 @@ CS422 is an advanced course on principles of programming language design. Major 
 The links below provide you with useful material for this class, including complete lecture notes. These materials will be added by need.
 
 - ***Introduction.*** [Slides](CS422-Fall-2024-01.pdf)
-- ***Structural Operational Semantics.*** [Slides]({{site.baseurl}}/assets/CS422-Fall-2024-02-Conventional-Executable-Semantics.pdf)
-  - Book lecture notes on the IMP language, big-step SOS, and small-step SOS (you can skip the rewriting logic and Maude parts; comments welcome!): [IMP-BigStep-SmallStep]({{site.baseurl}}/assets/CS422-Fall-2024-02a-IMP-BigStep-SmallStep.pdf)
+- ***Structural Operational Semantics.*** [Slides](CS422-Fall-2024-02-Conventional-Executable-Semantics.pdf)
+  - Book lecture notes on the IMP language, big-step SOS, and small-step SOS (you can skip the rewriting logic and Maude parts; comments welcome!): [IMP-BigStep-SmallStep](CS422-Fall-2024-02a-IMP-BigStep-SmallStep.pdf)
 
