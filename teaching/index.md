@@ -8,6 +8,8 @@ title: Grigore Rosu's Teaching
 (back to [Grigore Rosu]({{site.baseurl}}/people/grigore-rosu/index.html)'s home page)
 
 ## 2024
+- Fall 2024:
+  [CS422]({{site.baseurl}}/teaching/2024/cs422/) - Programming Language Design
 - Spring 2024:
   [CS522]({{site.baseurl}}/teaching/2024/cs522/) - Programming Language Semantics
 
