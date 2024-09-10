@@ -17,7 +17,7 @@ We may sometimes meet online on zoom, eg when traveling to professional events:
 
 When we meet online, we will record the lectures and post the links here:
 
-[https://illinois.zoom.us/rec/share/PbuJGlCTYhvCxTuDijRvFkaveC6eMExM7wMHEIyhtXTALqq3n9AZX8IIjqqsav9q.LawSiNxgJ5QhicQa](Sept 3)
+[Sept 3](https://illinois.zoom.us/rec/share/PbuJGlCTYhvCxTuDijRvFkaveC6eMExM7wMHEIyhtXTALqq3n9AZX8IIjqqsav9q.LawSiNxgJ5QhicQa)
 
 ## Course Description
 
