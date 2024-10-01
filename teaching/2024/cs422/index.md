@@ -55,6 +55,11 @@ The links below provide you with useful material for this class, including compl
   - [K User Manual](https://kframework.org/docs/user_manual/)
 
 ---
+<b><em><span style="color:red">HW2 (due date: Tuesday, Oct 8th, AoE)</span></em></b>
+
+Do the exercises in the K Tutorial.  They are spread through the lessons in Section 1, as well as in Section 2.1 (the other lessons are not finished yet).  Create a github repo, possibly as a clone of the K tutorial, and add the exercises there in the appropriate folders using any naming convention you prefer.  When done, give me access to view your repo and send me an email to confirm that I have access.  My github ID is `grosu`.
+
+---
 
 - ***PL Tutorial*** (coming soon -- links below may be broken)
   - [PL Tutorial, Part 1: Defining LAMBDA](https://kframework.org/k-distribution/pl-tutorial/) (see the provided video and textual documentation); Click [here](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/1_k/1_lambda) to see the code on GitHub. 
