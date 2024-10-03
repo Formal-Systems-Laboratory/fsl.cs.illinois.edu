@@ -61,7 +61,7 @@ Do the exercises in the K Tutorial.  They are spread through the lessons in Sect
 
 ---
 
-- ***PL Tutorial*** (coming soon -- links below may be broken)
+- ***[PL Tutorial](https://github.com/runtimeverification/pl-tutorial/tree/master)*** (coming soon -- links below may be broken)
   - [PL Tutorial, Part 1: Defining LAMBDA](https://kframework.org/k-distribution/pl-tutorial/) (see the provided video and textual documentation); Click [here](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/1_k/1_lambda) to see the code on GitHub. 
   - [PL Tutorial, Part 2: Defining IMP](https://kframework.org/k-distribution/pl-tutorial/) (see the provided video and textual documentation); Click [here](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/1_k/2_imp) to see the code on GitHub. 
   - [PL Tutorial, Part 3: Defining LAMBDA++](https://kframework.org/k-distribution/pl-tutorial/) (see the provided video and textual documentation); Click [here](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/1_k/3_lambda%2B%2B) to see the code on GitHub. 
