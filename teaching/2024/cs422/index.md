@@ -67,3 +67,27 @@ Do the exercises in the K Tutorial.  They are spread through the lessons in Sect
   - [PL Tutorial, Part 3: Defining LAMBDA++](https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/3_lambda%2B%2B)
   - [PL Tutorial, Part 4: Defining IMP++](https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/4_imp%2B%2B)
   - [K Overview]({{site.baseurl}}/assets/CS422-K-Overview.pdf) paper to learn more about K. Sections 1 and 2 (the other sections are optional now; they are covered below)
+
+---
+<b><em><span style="color:red">HW3 (due date: Tuesday, October 22, AoE)</span></em></b>
+
+***Exercise 1 (10 points):*** The current K LAMBDA semantics of mu (in Lesson 8) is based on substitution, and then letrec is defined as a derived operation using `mu`. Give `mu` a different semantics, as a derived construct by translation into other LAMBDA constructs, like we defined `letrec` in Lesson 7. To test it, use the same definition of letrec in terms of mu (from Lesson 8) and write 3 recursive programs, like the provided `factorial-letrec.lambda`.
+
+Note: See the [mu-derived](https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/1_lambda/lesson_8/exercises/mu-derived) exercise in the nightly built for details and test programs.
+
+***Exercise 2 (10 points):*** Modify the K definition of IMP to not automatically initialize variables to 0. Instead, declared variables should stay uninitialized until assigned a value, and the execution should get stuck when an uninitialized variable is looked up.
+
+Note: See the [uninitialized-variables](https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/2_imp/lesson_4/exercises/uninitialized-variables) exercise in the nightly built for details and test programs.
+
+***Exercise 3 (10 points):*** Mofify IMP so that the K "followed by" arrow, `~>`, does not explicitly occur in the definition (it currently occurs in the semantics of sequential composition). Hint: make sequential composition `strict(1)` or `seqstrict`, and have statements reduce to `{}` instead of `.`, ... and don't forget to make `{}` a `KResult` (you may need a new syntactic category for that, which only includes `{}` and is included in `KResult`).
+
+Note: See the [purely-syntactic](https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/2_imp/lesson_4/exercises/purely-syntactic) exercise in the nightly built for details and test programs.
+
+***Exercise 4 (10 points):*** Define a variant of callcc, say callCC, which never returns to the current continuation unless a value is specifically passed to that continuation. Can you define them in terms of each other? Pick one of the substitution versus the environment-based definitions (get extra-credit if you do both).
+
+Note: See the [callCC (substitution)](https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/3_lambda%2B%2B/lesson_1/exercises/callCC), 
+[from-call-CC-to-callcc (substitution)](https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/3_lambda%2B%2B/lesson_1/exercises/from-call-CC-to-callcc), [from-callcc-to-call-CC(substitution)](https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/3_lambda%2B%2B/lesson_1/exercises/from-callcc-to-call-CC), 
+[callCC (environment)](https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/3_lambda%2B%2B/lesson_6/exercises/callCC), 
+[from-call-CC-to-callcc (environment)](https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/3_lambda%2B%2B/lesson_6/exercises/from-call-CC-to-callcc), and [from-callcc-to-call-CC (environment)](https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/3_lambda%2B%2B/lesson_6/exercises/from-callcc-to-call-CC) exercises in the nightly built for details and test programs.
+
+***Exercise 5 (10 points):*** The current `halt;` statement of IMP++ only halts the current thread.  Define an `abort;` statement which halts the entire program.
