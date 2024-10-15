@@ -61,9 +61,9 @@ Do the exercises in the K Tutorial.  They are spread through the lessons in Sect
 
 ---
 
-- ***[PL Tutorial](https://github.com/runtimeverification/pl-tutorial/tree/master)*** (coming soon -- links below may be broken)
-  - [PL Tutorial, Part 1: Defining LAMBDA](https://kframework.org/k-distribution/pl-tutorial/) (see the provided video and textual documentation); Click [here](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/1_k/1_lambda) to see the code on GitHub. 
-  - [PL Tutorial, Part 2: Defining IMP](https://kframework.org/k-distribution/pl-tutorial/) (see the provided video and textual documentation); Click [here](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/1_k/2_imp) to see the code on GitHub. 
-  - [PL Tutorial, Part 3: Defining LAMBDA++](https://kframework.org/k-distribution/pl-tutorial/) (see the provided video and textual documentation); Click [here](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/1_k/3_lambda%2B%2B) to see the code on GitHub. 
-  - [PL Tutorial, Part 4: Defining IMP++](https://kframework.org/k-distribution/pl-tutorial/) (see the provided video and textual documentation); Click [here](https://github.com/kframework/k/tree/master/k-distribution/pl-tutorial/1_k/4_imp%2B%2B) to see the code on GitHub. 
+- ***[PL Tutorial](https://github.com/runtimeverification/pl-tutorial/tree/master)***
+  - [PL Tutorial, Part 1: Defining LAMBDA](https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/1_lambda)
+  - [PL Tutorial, Part 2: Defining IMP](https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/2_imp)
+  - [PL Tutorial, Part 3: Defining LAMBDA++](https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/3_lambda%2B%2B)
+  - [PL Tutorial, Part 4: Defining IMP++](https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/4_imp%2B%2B)
   - [K Overview]({{site.baseurl}}/assets/CS422-K-Overview.pdf) paper to learn more about K. Sections 1 and 2 (the other sections are optional now; they are covered below)
