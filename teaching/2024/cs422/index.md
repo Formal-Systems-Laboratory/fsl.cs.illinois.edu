@@ -126,3 +126,7 @@ Note: See the [functions-with-throws](https://github.com/runtimeverification/pl-
 Note: See the [no-duplicate-declarations](https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/1_simple/2_typed/1_static/exercises/no-duplicate-declarations) exercise for statically typed SIMPLE in the nightly built for details and test programs.
 
 For each of the problems, also provide one test program which should succeed and one which should fail. You will get two extra-points if any of your tests break everybody's definition (except potentially yours). If you handle more than one succeeding and one failing test, then I will randomly choose one of each.
+
+---
+- ***KOOL: Designing Object-Oriented Programming Languages***
+  - [KOOL untyped, statically typed, and dynamically typed](https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/2_kool).
