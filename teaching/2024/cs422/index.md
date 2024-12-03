@@ -145,3 +145,8 @@ Note: See the [private-members](https://github.com/runtimeverification/pl-tutori
 ***Exercise 3 (10 points):*** Same as Eercises 1 and 2, but for statically typed KOOL.
 
 Note: See the [private-members](https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/2_kool/2_typed/2_static/exercises/private-members) exercise for statically typed KOOL in the nightly built for details and test programs.
+
+---
+
+- ***FUN: Designing Functional Programming Languages***
+  - [FUN untyped](https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/3_fun).
