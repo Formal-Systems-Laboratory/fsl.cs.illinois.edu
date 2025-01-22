@@ -26,7 +26,7 @@ This class will introduce the fundamental concepts that underlie the emerging bl
 
 <b>Prerequisites:</b> Basic understanding of math, to understand how and why a distributed protocol works, how a hash function is computed, and how a program is executed and produces a proof of its execution.
 
-- Meetings: W/F 15:30-16:45.  On Wednesday, class will be taught on the Urbana-Champaign campus, in room Siebel 0220.  On Fridays, call will be taught in the UIUC Chicago center (Room ARR ?).
+- Meetings: W/F 15:30-16:45.  On Wednesday, class will be taught on the Urbana-Champaign campus, in room Siebel 0220.  On Fridays, it will be taught at the UIUC Chicago center (Room ARR ?).
 - Credit: 4 credits
 - Professor: [Grigore Rosu]({{site.baseurl}}/people/grigore-rosu/index.html) (Office: SC 2110)
 - Office hours: Held by Grigore Rosu on Zoom or in SC 2110; by appointment.
