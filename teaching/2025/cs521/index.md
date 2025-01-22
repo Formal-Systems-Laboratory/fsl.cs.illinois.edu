@@ -35,4 +35,4 @@ This class will introduce the fundamental concepts that underlie the emerging bl
 
 The links below provide you with useful material for this class, including complete lecture notes. These materials will be added by need.
 
-- ***Topic 1: Short History of Money*** [Slides](...)
+- ***Topic 1: Short History of Money*** [Slides](cs521 - Topic 1.pdf)
