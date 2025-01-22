@@ -29,7 +29,7 @@ This class will introduce the fundamental concepts that underlie the emerging bl
 - Meetings: W/F 15:30-16:45.  On Wednesday, class will be taught on the Urbana-Champaign campus, in room Siebel 0220.  On Fridays, it will be taught at the UIUC Chicago center (Room ARR ?).
 - Credit: 4 credits
 - Professor: [Grigore Rosu]({{site.baseurl}}/people/grigore-rosu/index.html) (Office: SC 2110)
-- Office hours: Held by Grigore Rosu on Zoom or in SC 2110; by appointment.
+- Office hours: Held by Grigore Rosu on Zoom or in SC 2110 or in Chicago; by appointment.
 
 ## Lecture Notes, Useful Material
 
