@@ -9,7 +9,7 @@ title: Grigore Rosu's Teaching
 
 ## 2025
 - Spring 2025:
-  [CS521]({{site.baseurl}}/teaching/2025/cs521/) - Technological Foundations of Blockchain and Cryptocurrencies
+  [CS521]({{site.baseurl}}/teaching/2025/cs521/) - Technological Foundations of Blockchain and Cryptocurrency
 
 ## 2024
 - Fall 2024:
