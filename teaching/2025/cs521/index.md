@@ -38,3 +38,5 @@ The links below provide you with useful material for this class, including compl
 
 - ***Topic 1: Short History of Money*** [Slides.pdf](cs521 - Topic 1.pdf)
 - ***Topic 2: Basic Cryptographic Primitives*** [Slides.pdf](cs521 - Topic 2.pdf)
+- ***Topic 3: Bitcoin*** [White Paper](https://bitcoin.org/bitcoin.pdf)
+- ...
