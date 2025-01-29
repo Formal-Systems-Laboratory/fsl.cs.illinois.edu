@@ -19,6 +19,7 @@ This class will be taught on Wednesdays on the main UIUC campus, and on Fridays 
 We will record the lectures and post the links here:
 
 [Jan 22](https://illinois.zoom.us/rec/share/mWAO238GLKb0q6heA6MK6wAmUta9daw5xQkkafm_Xcs57vfaL9xoV8nqWU_grWxx.NE6UjDizsa387wMN)
+[Jan 24](https://illinois.zoom.us/rec/share/RAprslRWqEm_AvVeQzSSZPmqi4zmx643Wdruu6AJ_KFgwIzV8s3Zxa75eY2huUNh.dzDdteamRkYNHRtG)
 
 ## Course Description
 
@@ -36,4 +37,4 @@ This class will introduce the fundamental concepts that underlie the emerging bl
 The links below provide you with useful material for this class, including complete lecture notes. These materials will be added by need.
 
 - ***Topic 1: Short History of Money*** [Slides.pdf](cs521 - Topic 1.pdf)
-- ***Topic 2: Basic Cryptographic Primitives*** [Slides.pdf](cs521 - Topic 2.pdf) [Slides.pptx](cs521 - Topic 2.pptx)
+- ***Topic 2: Basic Cryptographic Primitives*** [Slides.pdf](cs521 - Topic 2.pdf)
