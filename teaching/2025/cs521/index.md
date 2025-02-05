@@ -43,3 +43,5 @@ The links below provide you with useful material for this class, including compl
 - ***Topic 3: Bitcoin*** [White Paper](https://bitcoin.org/bitcoin.pdf) [Slides.pdf](cs521 - Topic 3.pdf)
 - ***Topic 4: Ethereum*** [White Paper](https://ethereum.org/en/whitepaper/)
 - ...
+
+### [Presentations and Projects](https://docs.google.com/document/d/14mkykbNGKMhP4br8p7RvDnYLslOimvWdTRUzRg9G6Us/edit?usp=sharing) ###
