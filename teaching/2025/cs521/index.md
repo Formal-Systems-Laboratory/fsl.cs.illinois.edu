@@ -42,7 +42,7 @@ The links below provide you with useful material for this class, including compl
 - ***Topic 1: Short History of Money*** [Slides.pdf](cs521 - Topic 1.pdf)
 - ***Topic 2: Basic Cryptographic Primitives*** [Slides.pdf](cs521 - Topic 2.pdf)
 - ***Topic 3: Bitcoin*** [White Paper](https://bitcoin.org/bitcoin.pdf) [Slides.pdf](cs521 - Topic 3.pdf)
-- ***Topic 4: Ethereum*** [White Paper](https://ethereum.org/en/whitepaper/) | [Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf) | [KEVM](https://jellopaper.org/) | [ERC20](https://eips.ethereum.org/EIPS/eip-20)
+- ***Topic 4: Ethereum*** [White Paper](https://ethereum.org/en/whitepaper/) | [Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf) | [KEVM](https://jellopaper.org/) | [ERC20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/)
 - ...
 
 ### [Presentations and Projects](https://docs.google.com/document/d/14mkykbNGKMhP4br8p7RvDnYLslOimvWdTRUzRg9G6Us/edit?usp=sharing) ###
