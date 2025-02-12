@@ -42,8 +42,9 @@ The links below provide you with useful material for this class, including compl
 
 - ***Topic 1: Short History of Money*** [Slides.pdf](cs521 - Topic 1.pdf)
 - ***Topic 2: Basic Cryptographic Primitives*** [Slides.pdf](cs521 - Topic 2.pdf)
-- ***Topic 3: Bitcoin*** [White Paper](https://bitcoin.org/bitcoin.pdf) [Slides.pdf](cs521 - Topic 3.pdf)
+- ***Topic 3: Bitcoin*** [White Paper](https://bitcoin.org/bitcoin.pdf) -- [Slides.pdf](cs521 - Topic 3.pdf)
 - ***Topic 4: Ethereum*** [White Paper](https://ethereum.org/en/whitepaper/) -- [Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf) -- [KEVM](https://jellopaper.org/) -- [ERC20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/)
+- ***Topic 5: Consensus*** [Slides.pdf](cs521 - Topic 4.pdf) -- [Proof of Stake Ethereum](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/) -- Beacon Chain [K Formal Model](https://github.com/runtimeverification/beacon-chain-spec) [Dafny Formal Model](https://arxiv.org/abs/2110.12909) [Coq Formal Model](https://github.com/runtimeverification/beacon-chain-verification/tree/master/casper/coq) -- RANDAO [Statistical Model Checking](https://link.springer.com/chapter/10.1007/978-3-030-54994-7_25) 
 - ...
 
 If you are a student taking this class or in the process ot taking it (clearing it with the academic office), you must access the document below.  If you don't have access already, please ask for access and I will grant it to you. 
