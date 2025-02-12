@@ -46,4 +46,5 @@ The links below provide you with useful material for this class, including compl
 - ***Topic 4: Ethereum*** [White Paper](https://ethereum.org/en/whitepaper/) -- [Yellow Paper](https://ethereum.github.io/yellowpaper/paper.pdf) -- [KEVM](https://jellopaper.org/) -- [ERC20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/)
 - ...
 
+If you are a student taking this class or in the process ot taking it (clearing it with the academic office), you must access the document below.  If you don't have access already, please ask for access and I will grant it to you. 
 ### [Presentations and Projects](https://docs.google.com/document/d/14mkykbNGKMhP4br8p7RvDnYLslOimvWdTRUzRg9G6Us/edit?usp=sharing) ###
