@@ -24,6 +24,10 @@ Jan 29 (forgot to push "record"; never let me not do it, please!)
 [Jan 31](https://illinois.zoom.us/rec/share/s0CCHpgKOE_0pR9sJj5l6r8W5LkEYpSZ1hxWMzDzPahO73Q1UGqwp96MxLNQ-6zs.bzSsGgIAW0M_V56m)
 [Feb 5](https://illinois.zoom.us/rec/share/dvrXGlXoaji_BiFwiuCPOmqTv7KOHOeYM2RRj6YOFHPBoHLMqHAEe_9Ax6wFyHSE.TR263Yd7vQCiFHmS)
 [Feb 7](https://illinois.zoom.us/rec/share/srkBI5NglOeg0n2YOTt1uXyY9oa8_8InrAYEgDE659DIiBAwXAI_xpCtFBEkC4Bk.DOfFP52Df7hSCe_N)
+[Feb 12](https://illinois.zoom.us/rec/share/4b7nhipq6V6xZXzz5OnFXM797ZXlfFmsfpagg0N5S0MlxiD2vh0SEIGZB54GW124.l9aFRhWTcBJ4EyiW)
+Feb 14 (forgot to push "record" again)
+[Feb 19](https://illinois.zoom.us/rec/share/p_BOjgL3TLPwRZP8svaCILnx0bfJhGhFLH5_4C1obUVDr-M3FaqbD4sgju-kRaDY.JD7L27xYe4wPjcQ8)
+
 
 ## Course Description
 
@@ -50,3 +54,4 @@ The links below provide you with useful material for this class, including compl
 
 If you are a student taking this class or in the process ot taking it (clearing it with the academic office), you must access the document below.  If you don't have access already, please ask for access and I will grant it to you. 
 ### [Presentations and Projects](https://docs.google.com/document/d/14mkykbNGKMhP4br8p7RvDnYLslOimvWdTRUzRg9G6Us/edit?usp=sharing) ###
+### [Slack channel](https://join.slack.com/t/formal-systems-lab/shared_invite/zt-30ana823a-cbSY2BNcwpKWdOPecU3EAw) ###
