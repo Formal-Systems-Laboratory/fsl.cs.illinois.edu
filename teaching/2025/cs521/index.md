@@ -32,6 +32,13 @@ Feb 14 (forgot to push "record" again)
 [Mar 7](https://illinois.zoom.us/rec/share/PR8a8e8DjBKAYgFRPDVtWivcq78bmS2BRrTxmzA_YrbyqWuSJgkDE-o2p8XvPIrT.pRFOOn7AH1Xbg18o)
 [Mar 12](https://illinois.zoom.us/rec/share/qNAirS7mPUTtQh0uQrroR4odtiIJUcTKh5UAsyLw1qP1vKvJhfgsa3kIJztnv2jg.uHgnp8DaOI5v8U94)
 [Mar 14](https://illinois.zoom.us/rec/share/trOa9ubt-YvXx0HH9H1mc0uG7Nl7DF7WY5CNd0jOlIQqh45wv4FhWSLcxDURmwUX.DnknuHH-zXErFvwb)
+[Mar 26](https://illinois.zoom.us/rec/share/qQ87Nfj0JEiXco08ZOZETTI_kzPnlaWu6ibFEwIZgLgLonpBjRcK7556Vf0toWRq.NMMdAmBuhHXmVaCj)
+[Mar 28](https://illinois.zoom.us/rec/share/SZDi_CmNLzf5-ULHx84VOUxdJsL5yT6zsOP7dJdRfM1Fd7C-qlzf53BmVIN4fx8k.6wX1IY1dZ3scdFaM)
+[Apr 2](https://illinois.zoom.us/rec/share/ksYYmnehv8LNK2XlJTmbwN-N_z3slOmk2dkKfLy5Mj4CaonGuGRsGaoUHamPFS6f.Kbx-NxnS-HHWGM1b)
+[Apr 4](https://illinois.zoom.us/rec/share/Sy7REDOp__gtu3xfOupC4nKvYROZQc3_ydXfAHKavcrVKBs9rAVcjn2Mjm9MkynG.7yLVXKjigYD1yX28)
+[Apr 9](https://illinois.zoom.us/rec/share/JDR8XICD3Q2OSaL3P5J8ymQKRpaLK00Ots8kk6W_jTOSgBOYYWjl4rqYRt4Ufjvg.gm7zvXnbxqzKr0Xg)
+[Apr 11](https://illinois.zoom.us/rec/share/2h_g8ka6f9zW2OAuxe8ZKgPO_QU33aX2qGKN_7Qya49p9LHsYEJu4XKsdgz_FWil.aRxXEfPYtS9-iKyn)
+[Apr 16](https://illinois.zoom.us/rec/share/728eMVi14dw0eh8_31VsgNk5MS0rx95s1uMQUR6lYkx9kq2uAhjBYFIg5A-3RjLa.6S2MULf1bOZx_B9T)
 
 ## Course Description
 
