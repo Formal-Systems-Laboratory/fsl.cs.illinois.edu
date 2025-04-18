@@ -39,6 +39,7 @@ Feb 14 (forgot to push "record" again)
 [Apr 9](https://illinois.zoom.us/rec/share/JDR8XICD3Q2OSaL3P5J8ymQKRpaLK00Ots8kk6W_jTOSgBOYYWjl4rqYRt4Ufjvg.gm7zvXnbxqzKr0Xg)
 [Apr 11](https://illinois.zoom.us/rec/share/2h_g8ka6f9zW2OAuxe8ZKgPO_QU33aX2qGKN_7Qya49p9LHsYEJu4XKsdgz_FWil.aRxXEfPYtS9-iKyn)
 [Apr 16](https://illinois.zoom.us/rec/share/728eMVi14dw0eh8_31VsgNk5MS0rx95s1uMQUR6lYkx9kq2uAhjBYFIg5A-3RjLa.6S2MULf1bOZx_B9T)
+[Apr 18](https://illinois.zoom.us/rec/share/xlDsZkT6Kgt7eKwOL2glZHGZHhSrY-jJyONWylYC7hed3uunq8y7zr_JwhtjXWPc.B_vUZEtfS5A5tVgX)
 
 ## Course Description
 
