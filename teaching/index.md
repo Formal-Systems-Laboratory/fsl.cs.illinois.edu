@@ -8,6 +8,8 @@ title: Grigore Rosu's Teaching
 (back to [Grigore Rosu]({{site.baseurl}}/people/grigore-rosu/index.html)'s home page)
 
 ## 2025
+- Fall 2025:
+  [CS422]({{site.baseurl}}/teaching/2025/cs422/) - Programming Language Design
 - Spring 2025:
   [CS521]({{site.baseurl}}/teaching/2025/cs521/) - Technological Foundations of Blockchain and Cryptocurrency
 
