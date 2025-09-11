@@ -47,3 +47,10 @@ The links below provide you with useful material for this class, including compl
 
 ***Exercise 4 (10 points):*** Combine the three above: add division-by-zero halting, an increment construct, and the two I/O constructs to IMP. Feel free to comment on what's going on, particularly on how inconvenient it is to do certain things in SOS (one of the points of this HW is to understand the limitations of SOS, so you will appreciate K).
 
+---
+
+- ***K Framework*** (Official website: [http://kframework.org](http://kframework.org); all generated from [Github repo](https://github.com/runtimeverification/k/tree/master/k-distribution/k-tutorial))
+  - [K Tutorial, Section 1: Basic K Concepts](https://kframework.org/k-distribution/k-tutorial/1_basic/)
+  - [K Tutorial, Section 2: Intermediate K Concept](https://kframework.org/k-distribution/k-tutorial/2_intermediate/)
+  - [K User Manual](https://kframework.org/docs/user_manual/)
+  
