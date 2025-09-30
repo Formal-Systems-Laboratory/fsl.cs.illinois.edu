@@ -54,3 +54,16 @@ The links below provide you with useful material for this class, including compl
   - [K Tutorial, Section 2: Intermediate K Concept](https://kframework.org/k-distribution/k-tutorial/2_intermediate/)
   - [K User Manual](https://kframework.org/docs/user_manual/)
   
+---
+<b><em><span style="color:red">HW2 (due date: Thursday, Oct 2nd, AoE)</span></em></b>
+
+Pick and do one exercise in each K Tutorial Lesson that we covered in class.  Create a github repo, possibly as a clone of the K tutorial, and add the exercises there in the appropriate folders using any naming convention you prefer.  When done, give me access to view your repo and send me an email to confirm that I have access.  My github ID is `grosu`.
+
+---
+
+- ***[PL Tutorial](https://github.com/runtimeverification/pl-tutorial/tree/master)***
+  - [PL Tutorial, Part 1: Defining LAMBDA](https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/1_lambda)
+  - [PL Tutorial, Part 2: Defining IMP](https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/2_imp)
+  - [PL Tutorial, Part 3: Defining LAMBDA++](https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/3_lambda%2B%2B)
+  - [PL Tutorial, Part 4: Defining IMP++](https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/4_imp%2B%2B)
+  - [K Overview]({{site.baseurl}}/assets/CS422-K-Overview.pdf) paper to learn more about K. Sections 1 and 2 (the other sections are optional now; they are covered below)
