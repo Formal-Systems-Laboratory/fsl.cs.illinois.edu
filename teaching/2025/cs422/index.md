@@ -93,3 +93,8 @@ Note: See the [callCC (substitution)](https://github.com/runtimeverification/pl-
 ***Exercise 5 (10 points):*** The current `halt;` statement of IMP++ only halts the current thread.  Define an `abort;` statement which halts the entire program.
 
 ---
+
+- ***SIMPLE: Designing Imperative Programming Languages***
+  - [SIMPLE untyped, statically typed, and dynamically typed](https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/1_simple).
+  - [K Tutorial, Part 5: Defining type systems](https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/5_types) (this is optional at this stage, but instructive for better understanding the static semantics; read at least Lesson 1, and skim Lesson 6).
+  - [K Overview]({{site.baseurl}}/assets/CS422-K-Overview.pdf) paper, which also defines and explains SIMPLE. Sections 3 and 4 (the other sections were covered above)
