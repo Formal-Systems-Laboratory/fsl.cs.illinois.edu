@@ -98,3 +98,28 @@ Note: See the [callCC (substitution)](https://github.com/runtimeverification/pl-
   - [SIMPLE untyped, statically typed, and dynamically typed](https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/1_simple).
   - [K Tutorial, Part 5: Defining type systems](https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/5_types) (this is optional at this stage, but instructive for better understanding the static semantics; read at least Lesson 1, and skim Lesson 6).
   - [K Overview]({{site.baseurl}}/assets/CS422-K-Overview.pdf) paper, which also defines and explains SIMPLE. Sections 3 and 4 (the other sections were covered above)
+
+---
+<b><em><span style="color:red">HW4 (due date: Thursday, Nov 6st, AoE</span></em></b>
+
+***Exercise 1 (10 points):*** Add `break;` and `continue;` to untyped SIMPLE. Just take the semantics of these from C/C++/Java, if uncertain. Do only the simple, unlabeled ones, which only break/continue the innermost loop. One thing to think about: do you still want to desugar the for-loop into a while-loop as we do it now?
+
+Note: See the [break-continue](https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/1_simple/1_untyped/exercises/break-continue) exercise for untyped SIMPLE in the nightly built for details and test programs.
+
+***Exercise 2 (10 points):*** Our current exceptions in SIMPLE are quite simplistic: the thrown exceptional value is caught by the innermost try-catch statement, and you get a runtime error (stuck) if the type of the thrown value is not the same as the type of the exception's parameter. They work fine if you restrict them to only throw and catch integer values, like we did in the static semantics, but modern languages do not like this limitation. Change the existing dynamic semantics of typed SIMPLE to propagate a thrown exception to the outer try-catch statement when the inner one cannot handle the exception due to a type mismatch. For example, `try { try { throw 7; } catch(bool x) {print(1};} } catch{int x) {print(2);}` should print 2, not get stuck as it currently happens.
+
+Note: See the [typed-exceptions](https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/1_simple/2_typed/2_dynamic/exercises/typed-exceptions) exercise for dynamically typed SIMPLE in the nightly built for details and test programs.
+
+***Exercise 3 (10 points):*** Same as Pb2, but for the static semantics of the typed SIMPLE. For this exercise (but not for the previous one), modify also the syntax of SIMPLE to allow functions to declare what exceptions they can throw.
+
+Note: See the [functions-with-throws](https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/1_simple/2_typed/1_static/exercises/functions-with-throws) exercise for statically typed SIMPLE in the nightly built for details and test programs.
+
+***Exercise 4 (10 points):*** Compilers typically collect all the variables declared in a block and move them all in one place, renaming them appropriately everywhere to avoid name conflicts. Consequently, they do not like you to declare a variable twice in the same block. Modify the static semantics of SIMPLE to reject programs which declare the same variable twice in a block. Your resulting type system should get stuck when a variable is declared the second time.
+
+Note: See the [no-duplicate-declarations](https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/1_simple/2_typed/1_static/exercises/no-duplicate-declarations) exercise for statically typed SIMPLE in the nightly built for details and test programs.
+
+For each of the problems, also provide one test program which should succeed and one which should fail. You will get two extra-points if any of your tests break everybody's definition (except potentially yours). If you handle more than one succeeding and one failing test, then I will randomly choose one of each.
+
+---
+- ***KOOL: Designing Object-Oriented Programming Languages***
+  - [KOOL untyped, statically typed, and dynamically typed](https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/2_kool).
