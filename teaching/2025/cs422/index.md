@@ -162,6 +162,6 @@ Note: See the [spawn-join](https://github.com/runtimeverification/pl-tutorial/tr
 ---
 <b><em><span style="color:red">Extracredit / Project (due date: Thursday, December 18, AoE)</span></em></b>
 
-***Exercise 4 (10 points):*** Extend the semantics of `letrec` in substitution-based FUN, which currently can only take one binding, to arbitrarily many bindings.
+Extend the semantics of `letrec` in substitution-based FUN, which currently can only take one binding, to arbitrarily many bindings.
 
 Note: See the [letrec](https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/3_fun/1_untyped/2_substitution/exercises/letrec) exercise for details and test programs.
