@@ -143,3 +143,25 @@ Note: See the [private-members](https://github.com/runtimeverification/pl-tutori
 
 - ***FUN: Designing Functional Programming Languages***
   - [FUN untyped](https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/3_fun).
+
+---
+<b><em><span style="color:red">HW6 / Take Home final (due date: Thursday, December 18, AoE)</span></em></b>
+
+***Exercise 1 (10 points):*** Add a `let*` construct to environment-based FUN. `let*` has the same syntax as `let`, but it applies the bindings in the order in which they are given. For example, the program `let* x=1 and y=x in y` is well defined and evaluates to `1`, but it would be undefined if we replaced `let*` with `let`.
+
+Note: See the [letstar](https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/3_fun/1_untyped/1_environment/exercises/letstar) exercise for details and test programs.
+
+***Exercise 2 (10 points):*** Add interactive `read` and `print` to environment-based FUN.
+
+Note: See the [io](https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/3_fun/1_untyped/1_environment/exercises/io) exercise for details and test programs.
+
+***Exercise 3 (10 points):*** Add thread creation, with `spawn`, and synchronization, with `join`, to environment-based FUN.
+
+Note: See the [spawn-join](https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/3_fun/1_untyped/1_environment/exercises/spawn-join) exercise for details and test programs.
+
+---
+<b><em><span style="color:red">Extracredit / Project (due date: Thursday, December 18, AoE)</span></em></b>
+
+***Exercise 4 (10 points):*** Extend the semantics of `letrec` in substitution-based FUN, which currently can only take one binding, to arbitrarily many bindings.
+
+Note: See the [letrec](https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/3_fun/1_untyped/2_substitution/exercises/letrec) exercise for details and test programs.
