@@ -1,6 +1,5 @@
 ---
 layout: default
-title: CS521 - Foundations of Crypto: From Blockchain to Present (Spring 2026)
 ---
 
 # CS521 - Foundations of Crypto: From Blockchain to Present (Spring 2026)
