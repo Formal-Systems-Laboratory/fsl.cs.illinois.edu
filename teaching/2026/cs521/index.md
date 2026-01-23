@@ -17,7 +17,7 @@ This class will be taught on Wednesdays on the main UIUC campus, and on Fridays 
 
 We will record the lectures and post the links here (please always remind me to push "record"!):
 
-[Jan 21](...)
+[Jan 21](https://illinois.zoom.us/rec/share/EFX3hraatADbfPbXtkaEgb0VXcn5SzbyRbwqOtn9TXC6SCOBe-SGBotxUjOA6Csi.4rd-HiiHmZw2pe9J)
 
 ## Course Description
 
