@@ -36,7 +36,7 @@ This class will introduce the fundamental concepts that underlie the emerging Cr
 - Professor: [Grigore Rosu]({{site.baseurl}}/people/grigore-rosu/index.html) (Office: SC 2110)
 - Office hours: Held by Grigore Rosu on Zoom or in SC 2110 or in Chicago; by appointment.
 
-### [Syllabus](cs521_syllabus.pdf)
+### [Syllabus](Syllabus.pdf) --- updated Feb 13
 
 ## Lecture Notes, Useful Material
 
