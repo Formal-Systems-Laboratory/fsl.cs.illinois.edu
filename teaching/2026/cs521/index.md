@@ -53,4 +53,4 @@ The links below provide you with useful material for this class, including compl
 - ...
 
 If you are a student taking this class or in the process ot taking it (clearing it with the academic office), you must access the document below.  If you don't have access already, please ask for access and I will grant it to you. 
-### [Presentations and Projects (not available yet)](...)
+
