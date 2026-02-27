@@ -54,5 +54,3 @@ The links below provide you with useful material for this class, including compl
 - ***Topic 6: Zero-Knowledge Proofs*** [Slides.pdf](cs521 - Topic 6.pdf) [Justin Thaler's book](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.html)
 - ...
 
-If you are a student taking this class or in the process ot taking it (clearing it with the academic office), you must access the document below.  If you don't have access already, please ask for access and I will grant it to you. 
-
