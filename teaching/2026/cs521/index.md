@@ -67,3 +67,4 @@ The links below provide you with useful material for this class, including compl
 - ***Topic 6: Zero-Knowledge Proofs*** [Slides.pdf](cs521 - Topic 6.pdf) [Justin Thaler's book](https://people.cs.georgetown.edu/jthaler/ProofsArgsAndZK.html)
 - ***Topic 7: Beyond Blockchains*** [FastPay paper](https://arxiv.org/abs/2003.11506) -- [Actors, Blockchains and Beyond](Actors_Blockchains_Beyond.pdf) -- [FastSet slides](FastSet_Parallel_Claim_Settlement.pdf) -- [FastSet paper](https://arxiv.org/abs/2506.23395)
 
+[round 1 presentations](round-1-full-deck.pdf)
