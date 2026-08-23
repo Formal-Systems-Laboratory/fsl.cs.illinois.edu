@@ -1,7 +1,0 @@
-{%- for author in include.authors -%}
-{%- if author.href -%} <a href='{{author.href}}' > {%- endif -%}
-{%- if author.id -%}   <a href='{{site.baseurl}}/people/{{author.id}}' > {%- endif -%}
-{{author.text}}
-</a>
-{% if forloop.last != true %} and {% endif %}
-{%- endfor -%}

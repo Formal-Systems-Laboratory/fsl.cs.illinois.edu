@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CS422 - Programming Language Design (Fall 2024)</title>
+<link rel="icon" href="../../../assets/favicon.ico">
+<style>
+:root{ --ink:#111; --bg:#fff; --muted:#555; --link:#0b5fa5; --rule:#ddd; }
+@media (prefers-color-scheme: dark){
+  :root{ --ink:#e6e6e6; --bg:#141414; --muted:#a0a0a0; --link:#7fb6e8; --rule:#333; }
+}
+*{box-sizing:border-box}
+body{ margin:0 auto; padding:2.2rem 1.2rem 4rem; max-width:52rem;
+  font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  color:var(--ink); background:var(--bg); }
+a{ color:var(--link); text-decoration:none }
+a:hover{ text-decoration:underline }
+h1{ font-size:1.7rem; margin:0 0 .2rem }
+h2{ font-size:1.15rem; margin:2.2rem 0 .6rem; padding-bottom:.25rem; border-bottom:1px solid var(--rule) }
+h3{ font-size:1rem; margin:1.4rem 0 .4rem; color:var(--muted) }
+p{ margin:.6rem 0 }
+ul{ margin:.4rem 0; padding-left:1.3rem }
+li{ margin:.25rem 0 }
+.photo{ float:right; width:130px; margin:0 0 1rem 1.4rem; border-radius:3px }
+.sub{ color:var(--muted); margin:.1rem 0 }
+.nav{ margin:1.2rem 0; padding:.55rem 0; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule) }
+.nav a{ margin-right:1.1rem; white-space:nowrap }
+.yr{ margin:1.6rem 0 .3rem; font-weight:600; font-size:1.05rem }
+.pub{ margin:.42rem 0; padding-left:1.5rem; text-indent:-1.5rem }
+.pub .v{ color:var(--muted) }
+.lnk{ font-size:.85rem; white-space:nowrap }
+.lnk a{ margin-left:.35rem }
+footer{ margin-top:3rem; padding-top:.8rem; border-top:1px solid var(--rule);
+  color:var(--muted); font-size:.88rem }
+@media (max-width:600px){ .photo{ width:100px; margin-left:1rem } body{ padding-top:1.4rem } }
+</style>
+</head>
+<body>
+<p class="lnk"><a href="../../../index.html">&larr; Grigore Ro&#351;u</a></p>
+<h1>CS422 - Programming Language Design (Fall 2024)</h1>
+<p>Students enrolled in this class are expected to check this web page regularly. 
+Complete lecture notes will be posted here, following the same model as in <a href="https://fsl.cs.illinois.edu/teaching/2023/cs422/">CS422 in Fall 2023</a>.</p>
+<h2>Zoom Link</h2>
+<p>We may sometimes meet online on zoom, eg when traveling to professional events:
+<a href="https://illinois.zoom.us/j/2172447431?pwd=dEtxWmdJR0FYOElUa1ZLL2RJRzdZUT09">https://illinois.zoom.us/j/2172447431?pwd=dEtxWmdJR0FYOElUa1ZLL2RJRzdZUT09</a></p>
+<h3>Lecture Recordings</h3>
+<p>When we meet online, we will record the lectures and post the links here:</p>
+<p><a href="https://illinois.zoom.us/rec/share/PbuJGlCTYhvCxTuDijRvFkaveC6eMExM7wMHEIyhtXTALqq3n9AZX8IIjqqsav9q.LawSiNxgJ5QhicQa">Sept 3</a></p>
+<h2>Course Description</h2>
+<p>CS422 is an advanced course on principles of programming language design. Major semantic approaches to programming languages will be discussed, such as structural operational semantics (various kinds), denotational semantics, and rewriting-based semantics. Programming language paradigms will be investigated and rigorously defined, including: imperative, functional, object-oriented, and logic programming languages; parameter binding and evaluation strategies; type checking and type inference; concurrency. Since the definitional framework used in this class will be executable, interpreters for the designed languages will be obtained for free. Software analysis tools reasoning about programs in these languages will also arise naturally. Major theoretical models will be discussed.</p>
+<ul>
+<li>Meetings: Tu/Th 12:30-13:45, Siebel 1214</li>
+<li>Credit: 3 or 4 credits</li>
+<li>Professor: <a href="../../../index.html">Grigore Rosu</a> (Office: SC 2110)</li>
+<li>Office hours: Held by Grigore Rosu on Zoom or in SC 2110; by appointment.</li>
+</ul>
+<h2>Lecture Notes, Useful Material</h2>
+<p>The links below provide you with useful material for this class, including complete lecture notes. These materials will be added by need.</p>
+<ul>
+<li><strong><em>Introduction.</em></strong> <a href="CS422-Fall-2024-01.pdf">Slides</a></li>
+<li><strong><em>Structural Operational Semantics.</em></strong> <a href="CS422-Fall-2024-02-Conventional-Executable-Semantics.pdf">Slides</a></li>
+<li>Book lecture notes on the IMP language, big-step SOS, and small-step SOS (you can skip the rewriting logic and Maude parts; comments welcome!): <a href="CS422-Fall-2024-02a-IMP-BigStep-SmallStep.pdf">IMP-BigStep-SmallStep</a></li>
+</ul>
+<hr />
+<p><b><em><span style="color:red">HW1 (due date: Tuesday, Sept 17th, AoE)</span></em></b></p>
+<p><strong><em>Exercise 1 (10 points):</em></strong> Modify IMP (its Big-Step and its Small-Step SOS) to halt when a division-by-zero takes place, returning a configuration holding the state in which the division by zero took place.</p>
+<p><strong><em>Exercise 2 (10 points):</em></strong> Add a variable increment construct, <code>++x</code> (increment <code>x</code> and return the incremented value), to IMP: first add it to the formal BNF syntax, then to the Big-Step SOS, then to the type-system, and then to the Small-Step SOS.</p>
+<p><strong><em>Exercise 3 (10 points):</em></strong> Add I/O constructs, <code>read()</code> and <code>print(AExp)</code> to IMP: first add these to the formal BNF syntax (<code>read()</code> is an <code>AExp</code> construct and <code>print(AExp)</code> is a <code>Stmt</code> construct), then to the Big-Step SOS, then to the type-system, and then to the Small-Step SOS.</p>
+<p><strong><em>Exercise 4 (10 points):</em></strong> Combine the three above: add division-by-zero halting, an increment construct, and the two I/O constructs to IMP. Feel free to comment on what's going on, particularly on how inconvenient it is to do certain things in SOS (one of the points of this HW is to understand the limitations of SOS, so you will appreciate K).</p>
+<hr />
+<ul>
+<li><strong><em>K Framework</em></strong> (Official website: <a href="http://kframework.org">http://kframework.org</a>; all generated from <a href="https://github.com/runtimeverification/k/tree/master/k-distribution/k-tutorial">Github repo</a>)</li>
+<li><a href="https://kframework.org/k-distribution/k-tutorial/1_basic/">K Tutorial, Section 1: Basic K Concepts</a></li>
+<li><a href="https://kframework.org/k-distribution/k-tutorial/2_intermediate/">K Tutorial, Section 2: Intermediate K Concept</a></li>
+<li><a href="https://kframework.org/docs/user_manual/">K User Manual</a></li>
+</ul>
+<hr />
+<p><b><em><span style="color:red">HW2 (due date: Tuesday, Oct 8th, AoE)</span></em></b></p>
+<p>Do the exercises in the K Tutorial.  They are spread through the lessons in Section 1, as well as in Section 2.1 (the other lessons are not finished yet).  Create a github repo, possibly as a clone of the K tutorial, and add the exercises there in the appropriate folders using any naming convention you prefer.  When done, give me access to view your repo and send me an email to confirm that I have access.  My github ID is <code>grosu</code>.</p>
+<hr />
+<ul>
+<li><strong><em><a href="https://github.com/runtimeverification/pl-tutorial/tree/master">PL Tutorial</a></em></strong></li>
+<li><a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/1_lambda">PL Tutorial, Part 1: Defining LAMBDA</a></li>
+<li><a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/2_imp">PL Tutorial, Part 2: Defining IMP</a></li>
+<li><a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/3_lambda%2B%2B">PL Tutorial, Part 3: Defining LAMBDA++</a></li>
+<li><a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/4_imp%2B%2B">PL Tutorial, Part 4: Defining IMP++</a></li>
+<li><a href="../../../assets/CS422-K-Overview.pdf">K Overview</a> paper to learn more about K. Sections 1 and 2 (the other sections are optional now; they are covered below)</li>
+</ul>
+<hr />
+<p><b><em><span style="color:red">HW3 (due date: Thursday, October 24, AoE)</span></em></b></p>
+<p><strong><em>Exercise 1 (10 points):</em></strong> The current K LAMBDA semantics of mu (in Lesson 8) is based on substitution, and then letrec is defined as a derived operation using <code>mu</code>. Give <code>mu</code> a different semantics, as a derived construct by translation into other LAMBDA constructs, like we defined <code>letrec</code> in Lesson 7. To test it, use the same definition of letrec in terms of mu (from Lesson 8) and write 3 recursive programs, like the provided <code>factorial-letrec.lambda</code>.</p>
+<p>Note: See the <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/1_lambda/lesson_8/exercises/mu-derived">mu-derived</a> exercise in the nightly built for details and test programs.</p>
+<p><strong><em>Exercise 2 (10 points):</em></strong> Modify the K definition of IMP to not automatically initialize variables to 0. Instead, declared variables should stay uninitialized until assigned a value, and the execution should get stuck when an uninitialized variable is looked up.</p>
+<p>Note: See the <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/2_imp/lesson_4/exercises/uninitialized-variables">uninitialized-variables</a> exercise in the nightly built for details and test programs.</p>
+<p><strong><em>Exercise 3 (10 points):</em></strong> Mofify IMP so that the K "followed by" arrow, <code>~&gt;</code>, does not explicitly occur in the definition (it currently occurs in the semantics of sequential composition). Hint: make sequential composition <code>strict(1)</code> or <code>seqstrict</code>, and have statements reduce to <code>{}</code> instead of <code>.</code>, ... and don't forget to make <code>{}</code> a <code>KResult</code> (you may need a new syntactic category for that, which only includes <code>{}</code> and is included in <code>KResult</code>).</p>
+<p>Note: See the <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/2_imp/lesson_4/exercises/purely-syntactic">purely-syntactic</a> exercise in the nightly built for details and test programs.</p>
+<p><strong><em>Exercise 4 (10 points):</em></strong> Define a variant of callcc, say callCC, which never returns to the current continuation unless a value is specifically passed to that continuation. Can you define them in terms of each other? Pick one of the substitution versus the environment-based definitions (get extra-credit if you do both).</p>
+<p>Note: See the <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/3_lambda%2B%2B/lesson_1/exercises/callCC">callCC (substitution)</a>, 
+<a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/3_lambda%2B%2B/lesson_1/exercises/from-call-CC-to-callcc">from-call-CC-to-callcc (substitution)</a>, <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/3_lambda%2B%2B/lesson_1/exercises/from-callcc-to-call-CC">from-callcc-to-call-CC(substitution)</a>, 
+<a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/3_lambda%2B%2B/lesson_6/exercises/callCC">callCC (environment)</a>, 
+<a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/3_lambda%2B%2B/lesson_6/exercises/from-call-CC-to-callcc">from-call-CC-to-callcc (environment)</a>, and <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/3_lambda%2B%2B/lesson_6/exercises/from-callcc-to-call-CC">from-callcc-to-call-CC (environment)</a> exercises in the nightly built for details and test programs.</p>
+<p><strong><em>Exercise 5 (10 points):</em></strong> The current <code>halt;</code> statement of IMP++ only halts the current thread.  Define an <code>abort;</code> statement which halts the entire program.</p>
+<hr />
+<ul>
+<li><strong><em>Matching Logic - A Minimal Foundation for Programming Languages</em></strong></li>
+<li>Optional, but informative.  Matching logic is the logic underlying K.</li>
+<li>http://matching-logic.org</li>
+<li><a href="https://events.model.in.tum.de/mod23/lectures.html">Marktoberdorf Lecture Notes</a></li>
+</ul>
+<hr />
+<ul>
+<li><strong><em>SIMPLE: Designing Imperative Programming Languages</em></strong></li>
+<li><a href="https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/1_simple">SIMPLE untyped, statically typed, and dynamically typed</a>.</li>
+<li><a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/5_types">K Tutorial, Part 5: Defining type systems</a> (this is optional at this stage, but instructive for better understanding the static semantics; read at least Lesson 1, and skim Lesson 6).</li>
+<li><a href="../../../assets/CS422-K-Overview.pdf">K Overview</a> paper, which also defines and explains SIMPLE. Sections 3 and 4 (the other sections were covered above)</li>
+</ul>
+<hr />
+<p><b><em><span style="color:red">HW4 (due date: Thursday, Nov 14st, AoE</span></em></b></p>
+<p><strong><em>Exercise 1 (10 points):</em></strong> Add <code>break;</code> and <code>continue;</code> to untyped SIMPLE. Just take the semantics of these from C/C++/Java, if uncertain. Do only the simple, unlabeled ones, which only break/continue the innermost loop. One thing to think about: do you still want to desugar the for-loop into a while-loop as we do it now?</p>
+<p>Note: See the <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/1_simple/1_untyped/exercises/break-continue">break-continue</a> exercise for untyped SIMPLE in the nightly built for details and test programs.</p>
+<p><strong><em>Exercise 2 (10 points):</em></strong> Our current exceptions in SIMPLE are quite simplistic: the thrown exceptional value is caught by the innermost try-catch statement, and you get a runtime error (stuck) if the type of the thrown value is not the same as the type of the exception's parameter. They work fine if you restrict them to only throw and catch integer values, like we did in the static semantics, but modern languages do not like this limitation. Change the existing dynamic semantics of typed SIMPLE to propagate a thrown exception to the outer try-catch statement when the inner one cannot handle the exception due to a type mismatch. For example, <code>try { try { throw 7; } catch(bool x) {print(1};} } catch{int x) {print(2);}</code> should print 2, not get stuck as it currently happens.</p>
+<p>Note: See the <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/1_simple/2_typed/2_dynamic/exercises/typed-exceptions">typed-exceptions</a> exercise for dynamically typed SIMPLE in the nightly built for details and test programs.</p>
+<p><strong><em>Exercise 3 (10 points):</em></strong> Same as Pb2, but for the static semantics of the typed SIMPLE. For this exercise (but not for the previous one), modify also the syntax of SIMPLE to allow functions to declare what exceptions they can throw.</p>
+<p>Note: See the <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/1_simple/2_typed/1_static/exercises/functions-with-throws">functions-with-throws</a> exercise for statically typed SIMPLE in the nightly built for details and test programs.</p>
+<p><strong><em>Exercise 4 (10 points):</em></strong> Compilers typically collect all the variables declared in a block and move them all in one place, renaming them appropriately everywhere to avoid name conflicts. Consequently, they do not like you to declare a variable twice in the same block. Modify the static semantics of SIMPLE to reject programs which declare the same variable twice in a block. Your resulting type system should get stuck when a variable is declared the second time.</p>
+<p>Note: See the <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/1_simple/2_typed/1_static/exercises/no-duplicate-declarations">no-duplicate-declarations</a> exercise for statically typed SIMPLE in the nightly built for details and test programs.</p>
+<p>For each of the problems, also provide one test program which should succeed and one which should fail. You will get two extra-points if any of your tests break everybody's definition (except potentially yours). If you handle more than one succeeding and one failing test, then I will randomly choose one of each.</p>
+<hr />
+<ul>
+<li><strong><em>KOOL: Designing Object-Oriented Programming Languages</em></strong></li>
+<li><a href="https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/2_kool">KOOL untyped, statically typed, and dynamically typed</a>.</li>
+</ul>
+<hr />
+<p><b><em><span style="color:red">HW5 (due date: Tuesday, Dec 10, AoE)</span></em></b></p>
+<p><strong><em>Exercise 1 (10 points):</em></strong> Currently, all class members (fields and/or methods) are public in KOOL. Sometimes we want to keep members of a class private, in the sense that subclasses do not have direct access to those members. This exercise asks you to add private members to untyped KOOL. Syntactically, you should allow a new keyword, "private", to optionally prepend member declarations. For example, <code>private var x=10, y=10;</code> or <code>private method f(x,y) {...}</code>.</p>
+<p>Note: See the <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/2_kool/1_untyped/exercises/private-members">private-members</a> exercise for untyped KOOL in the nightly built for details and test programs.</p>
+<p><strong><em>Exercise 2 (10 points):</em></strong> Same as Exercise 1, but for dynamically typed KOOL.</p>
+<p>Note: See the <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/2_kool/2_typed/1_dynamic/exercises/private-members">private-members</a> exercise for dynamically typed KOOL in the nightly built for details and test programs.</p>
+<p><strong><em>Exercise 3 (10 points):</em></strong> Same as Eercises 1 and 2, but for statically typed KOOL.</p>
+<p>Note: See the <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/2_kool/2_typed/2_static/exercises/private-members">private-members</a> exercise for statically typed KOOL in the nightly built for details and test programs.</p>
+<hr />
+<ul>
+<li><strong><em>FUN: Designing Functional Programming Languages</em></strong></li>
+<li><a href="https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/3_fun">FUN untyped</a>.</li>
+</ul>
+<hr />
+<p><b><em><span style="color:red">Extracredit (due date: Thursday, December 19, AoE)</span></em></b></p>
+<p><strong><em>Exercise 1 (10 points):</em></strong> Add a <code>let*</code> construct to environment-based FUN. <code>let*</code> has the same syntax as <code>let</code>, but it applies the bindings in the order in which they are given. For example, the program <code>let* x=1 and y=x in y</code> is well defined and evaluates to <code>1</code>, but it would be undefined if we replaced <code>let*</code> with <code>let</code>.</p>
+<p>Note: See the <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/3_fun/1_untyped/1_environment/exercises/letstar">letstar</a> exercise for details and test programs.</p>
+<p><strong><em>Exercise 2 (10 points):</em></strong> Add interactive <code>read</code> and <code>print</code> to environment-based FUN.</p>
+<p>Note: See the <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/3_fun/1_untyped/1_environment/exercises/io">io</a> exercise for details and test programs.</p>
+<p><strong><em>Exercise 3 (10 points):</em></strong> Add thread creation, with <code>spawn</code>, and synchronization, with <code>join</code>, to environment-based FUN.</p>
+<p>Note: See the <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/3_fun/1_untyped/1_environment/exercises/spawn-join">spawn-join</a> exercise for details and test programs.</p>
+<p><strong><em>Exercise 4 (10 points):</em></strong> Extend the semantics of <code>letrec</code> in substitution-based FUN, which currently can only take one binding, to arbitrarily many bindings.</p>
+<p>Note: See the <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/3_fun/1_untyped/2_substitution/exercises/letrec">letrec</a> exercise for details and test programs.</p>
+</body>
+</html>
