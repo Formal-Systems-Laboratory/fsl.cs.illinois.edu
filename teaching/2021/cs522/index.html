@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CS522 - Programming Language Semantics</title>
+<link rel="icon" href="../../../assets/favicon.ico">
+<style>
+:root{ --ink:#111; --bg:#fff; --muted:#555; --link:#0b5fa5; --rule:#ddd; }
+@media (prefers-color-scheme: dark){
+  :root{ --ink:#e6e6e6; --bg:#141414; --muted:#a0a0a0; --link:#7fb6e8; --rule:#333; }
+}
+*{box-sizing:border-box}
+body{ margin:0 auto; padding:2.2rem 1.2rem 4rem; max-width:52rem;
+  font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  color:var(--ink); background:var(--bg); }
+a{ color:var(--link); text-decoration:none }
+a:hover{ text-decoration:underline }
+h1{ font-size:1.7rem; margin:0 0 .2rem }
+h2{ font-size:1.15rem; margin:2.2rem 0 .6rem; padding-bottom:.25rem; border-bottom:1px solid var(--rule) }
+h3{ font-size:1rem; margin:1.4rem 0 .4rem; color:var(--muted) }
+p{ margin:.6rem 0 }
+ul{ margin:.4rem 0; padding-left:1.3rem }
+li{ margin:.25rem 0 }
+.photo{ float:right; width:130px; margin:0 0 1rem 1.4rem; border-radius:3px }
+.sub{ color:var(--muted); margin:.1rem 0 }
+.nav{ margin:1.2rem 0; padding:.55rem 0; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule) }
+.nav a{ margin-right:1.1rem; white-space:nowrap }
+.yr{ margin:1.6rem 0 .3rem; font-weight:600; font-size:1.05rem }
+.pub{ margin:.42rem 0; padding-left:1.5rem; text-indent:-1.5rem }
+.pub .v{ color:var(--muted) }
+.lnk{ font-size:.85rem; white-space:nowrap }
+.lnk a{ margin-left:.35rem }
+footer{ margin-top:3rem; padding-top:.8rem; border-top:1px solid var(--rule);
+  color:var(--muted); font-size:.88rem }
+@media (max-width:600px){ .photo{ width:100px; margin-left:1rem } body{ padding-top:1.4rem } }
+</style>
+</head>
+<body>
+<p class="lnk"><a href="../../../index.html">&larr; Grigore Ro&#351;u</a></p>
+<h1>CS522 - Programming Language Semantics</h1>
+<p>Students enrolled in this class are expected to check this web page
+regularly. Lecture notes and important other material will be posted
+here.</p>
+<h2>Zoom link</h2>
+<p><a href="https://illinois.zoom.us/j/2172447431?pwd=dEtxWmdJR0FYOElUa1ZLL2RJRzdZUT09">Click here</a></p>
+<p>Actual link: https://illinois.zoom.us/j/2172447431?pwd=dEtxWmdJR0FYOElUa1ZLL2RJRzdZUT09</p>
+<p>(password <code>713938</code> in case you are asked)</p>
+<h2 id="course_description">Course Description</h2>
+<p>CS522 is an advanced course on semantics of programming languages.
+Various semantic approaches and related aspects will be defined and
+investigated. Executable semantics of various programming languages and
+paradigms will be discussed, together with major theoretical models.</p>
+<ul>
+<li><em>Meetings</em>: Tu/Th 12:30 - 13:45, Zoom: see link above.</li>
+<li><em>Professor</em>: Grigore Rosu (Office: SC 2110, WWW: <a href="http://fsl.cs.illinois.edu/grosu">http://fsl.cs.illinois.edu/grosu</a>, Email: grosu@illinois.edu)</li>
+<li><em>Office hours</em>: By appointment, very flexible (held by Grigore Rosu either in SC 2110 or on Zoom at the same link as above)</li>
+</ul>
+<h2 id="piazza_page">Piazza Page</h2>
+<p><a href="https://piazza.com/illinois/fall2021/cs522">CS522 Piazza Page</a></p>
+<p>Let the professor know if you cannot self-register.</p>
+<h2 id="lecture_notes_useful_material">Lecture Notes, Useful Material</h2>
+<p>The links below provide you with useful material for this class,
+including complete lecture notes. These materials will be added <em>by
+need</em> and more topics will be added.</p>
+<ul>
+<li>
+<p><a href="01-Introduction.pdf">Introduction</a></p>
+</li>
+<li>
+<p>Conventional Semantic Approaches</p>
+<ul>
+<li><a href="02-Conventional-Executable-Semantics.pdf">Slides (PDF)</a>,
+    <a href="02-Conventional-Executable-Semantics.pptx">Slides (PPTX)</a>
+    <font color=red>(incomplete)</font></li>
+<li><a href="CS522-Fall-2021-basic-semantics.pdf">Book material on IMP, Big-Step SOS, Small-Step SOS, and Denotational
+    Semantics</a></li>
+</ul>
+</li>
+<li>
+<p>Rewriting Logic and Maude</p>
+<ul>
+<li><a href="CS522-Fall-2021-Maude.pdf">slides</a> - recommended only for a quick look</li>
+<li><a href="CS522-Fall-2021-Maude-book.pdf">Book material</a> - recommended</li>
+</ul>
+</li>
+<li>
+<h3 id="hw1">HW1 (due Thursday, September 16)</h3>
+<p>The following exercises are from the book material above. Do them only in
+Maude (that is, <em>not</em> on paper) by modifying <a href="CS522-Fall-2021-Maude-HW1.zip">the provided Maude code for
+HW1</a>: Exercise 56 (page 137); Exercise 70
+(page 155).</p>
+<p>In case you are not familiar with Maude, you are encouraged to do the
+following exercises to warm-up (but please do not include them as part of
+your HW1 submission): Exercise 30; Exercise 32; Exercise 33; Exercise 35;
+Exercise 36. All at pages 80/81.</p>
+</li>
+<li>
+<h3>HW2 (due Thursday, September 30; allowed until Tuesday, October 5, but this is an easy HW, so earlier submission possible and appreciated)</h3>
+<p>The following exercises related to denotational semantics are from the book
+material above: Exercises 80, 81, 82 (page 168; write these up on paper, or
+in a PDF); Exercise 83 (page 169; do it only in Maude, that is, <em>not</em> on
+paper, by modifying <a href="CS522-Fall-2021-Maude-HW2.zip">the provided Maude code for
+HW2</a>).</p>
+</li>
+<li>
+<p><a href="CS522-Fall-2021-IMP++.pdf">Book material on IMP++: Challenging Big-Step SOS, Small-Step SOS, and
+    Denotational Semantics</a></p>
+</li>
+<li>
+<h3>HW3 (due Thursday, October 14)</h3>
+<p>Combine all the individual extensions of IMP in <a href="CS522-Fall-2021-Maude-HW3.zip">the provided Maude code for
+HW3 (similar to that provided for HW2)</a> into the IMP++ language. Read the book
+material above for all the technical details. You should create a subfolder
+of imp called 6-imp++, and that should have four subfolders, one for each
+semantic style. Provide also three IMP++ programs.</p>
+</li>
+<li>
+<p><a href="CS522-Fall-2021-MSOS-RSEC-CHAM.pdf">Book material on Modular SOS, Evaluation Contexts, and the CHAM</a></p>
+</li>
+<li>
+<h3>HW4 (due Thursday, October 28)</h3>
+<p>Same as HW3 but for the three additional semantic approaches discussed in the
+lecture notes above: MSOS, RSEC, and CHAM. Use
+<a href="CS522-Fall-2021-Maude-HW4.zip">this provided Maude code for HW4</a>.
+Handle also a short essay discussing the advantages and limitations of each of
+the semantic approaches discussed so far in class, assigning a (justified) score
+between 1 and 10 to each of them.</p>
+</li>
+<li>
+<p>Category theory: definition, diagrams, cones and limits, exponentials</p>
+<ul>
+<li>
+<p><a href="CS522-Fall-2021-Category-Theory-slides.pdf">Slides</a></p>
+</li>
+<li>
+<p><a href="CS522-Fall-2021-HandWritten-Category-Theory.zip">Hand written notes on category theory properties</a></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Lambda Calculus and Combinatory Logic</p>
+<ul>
+<li>
+<p><a href="CS522-Fall-2021-Lambda-slides.pdf">Slides</a></p>
+</li>
+<li>
+<p><a href="CS522-Fall-2021-Lambda.pdf">Book material on Lambda Calculus and Combinatory Logic</a></p>
+</li>
+</ul>
+</li>
+<li>
+<p><a href="CS522-Fall-2021-HandWritten-CCC-untyped-lambda.zip">Hand written notes on CCC models of untyped Lambda Calculus</a></p>
+</li>
+<li>
+<h3>HW5 (due Thursday, November 11)</h3>
+<p>This is a theoretical HW, requiring you to do three proofs using category
+theory. You are strongly encouraged to do *all* the exercises in the
+slides, especially if you did not have prior experience with category
+theory. However, for his HW, only handle the following three exercises: (1, easy) Exercise 8 on slide 20 in the
+<a href="CS522-Fall-2021-Category-Theory-slides.pdf">category theory slides</a>
+(2, easy) Property 1 on "category theory - 3.png" in the
+<a href="CS522-Fall-2021-HandWritten-Category-Theory.zip">hand written notes on category theory properties</a>;
+and (3, harder) Lemma on slide "ccc-untyped-lambda - 3.png" in the
+<a href="CS522-Fall-2021-HandWritten-CCC-untyped-lambda.zip">hand written notes on CCC models of untyped lambda calculus</a>.</p>
+</li>
+<li>
+<p>Simply-Typed Lambda Calculus</p>
+<ul>
+<li>Basic notions: type system, equational semantics, models, completeness.  <a href="CS522-Fall-2021-Simply-Typed-Lambda-Calculus.pdf">Slides</a></li>
+<li>Cartesian Closed Categories as models for simply-typed lambda-calculus.  <a href="CS522-Fall-2021-PL-CCC.pdf">Slides</a></li>
+</ul>
+</li>
+<li>
+<h3>HW6 (due Friday, December 3)</h3>
+<p>Complete this <a href="CS522-Fall-2021-Lambda-Maude.zip">LAMBDA code snippet</a>.
+   This covers knowledge about untyped lambda-calculus, fixed-points,
+   combinatory logic, and de Bruijn nameless representations.</p>
+</li>
+<li>
+<p>Recursion, Types, Polymorphism</p>
+<ul>
+<li>Recursion and Types. <a href="CS522-Fall-2021-Recursion.pdf">Slides</a></li>
+<li>Polymorphism. <a href="CS522-Fall-2021-Polymorphism.pdf">Slides</a></li>
+</ul>
+</li>
+<li>
+<h3>Extra-Credit (due Friday, Dec 17)</h3>
+<p>This can be regarded as "Final exam", but it only counts as HW
+(and not project) extra-credit and has the same weight as any of the
+previous HWs. If you got perfect score so far for the 6 HWs above,
+then you do not need to do this extra-credit. Choose one, and only
+one, of the following and do it well (you will get either 10 or 0
+for this extra-credit problem!):</p>
+<ol>
+<li>
+<p>Proposition 8 from the slides on simply-typed lambda calculus. Exercises 5 and 6 from the slides on CCCs.</p>
+</li>
+<li>
+<p>Consider the PCF language with call-by-value (note that the
+   slides above define the call-by-name variant). Give it a small-step,
+   a big-step, and a denotational semantics in Maude, using the
+   representations of these semantic approaches discussed in the first
+   part of the class. Provide also 5 (five) PCF programs that can be
+   used to test all three of your semantics. You can use the builtins
+   provided as part of the previous HWs (you should only need the
+   generic substitution from there).</p>
+</li>
+<li>
+<p>This has two problems. The first is to define a type checker for
+   the parametric polymorphic lambda-calculus (or System F). The second
+   is to define a type checker for the subtype polymorphic
+   lambda-calculus. In both cases, make sure that you also include the
+   conditional and a few examples showing that your definition works.
+   Feel free to pick whatever syntax you want for the various
+   constructs (both for terms and for types).</p>
+</li>
+</ol>
+</li>
+</ul>
+</body>
+</html>

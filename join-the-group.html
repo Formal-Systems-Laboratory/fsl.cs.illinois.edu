@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Join the Group</title>
+<link rel="icon" href="assets/favicon.ico">
+<style>
+:root{ --ink:#111; --bg:#fff; --muted:#555; --link:#0b5fa5; --rule:#ddd; }
+@media (prefers-color-scheme: dark){
+  :root{ --ink:#e6e6e6; --bg:#141414; --muted:#a0a0a0; --link:#7fb6e8; --rule:#333; }
+}
+*{box-sizing:border-box}
+body{ margin:0 auto; padding:2.2rem 1.2rem 4rem; max-width:52rem;
+  font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  color:var(--ink); background:var(--bg); }
+a{ color:var(--link); text-decoration:none }
+a:hover{ text-decoration:underline }
+h1{ font-size:1.7rem; margin:0 0 .2rem }
+h2{ font-size:1.15rem; margin:2.2rem 0 .6rem; padding-bottom:.25rem; border-bottom:1px solid var(--rule) }
+h3{ font-size:1rem; margin:1.4rem 0 .4rem; color:var(--muted) }
+p{ margin:.6rem 0 }
+ul{ margin:.4rem 0; padding-left:1.3rem }
+li{ margin:.25rem 0 }
+.photo{ float:right; width:130px; margin:0 0 1rem 1.4rem; border-radius:3px }
+.sub{ color:var(--muted); margin:.1rem 0 }
+.nav{ margin:1.2rem 0; padding:.55rem 0; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule) }
+.nav a{ margin-right:1.1rem; white-space:nowrap }
+.yr{ margin:1.6rem 0 .3rem; font-weight:600; font-size:1.05rem }
+.pub{ margin:.42rem 0; padding-left:1.5rem; text-indent:-1.5rem }
+.pub .v{ color:var(--muted) }
+.lnk{ font-size:.85rem; white-space:nowrap }
+.lnk a{ margin-left:.35rem }
+footer{ margin-top:3rem; padding-top:.8rem; border-top:1px solid var(--rule);
+  color:var(--muted); font-size:.88rem }
+@media (max-width:600px){ .photo{ width:100px; margin-left:1rem } body{ padding-top:1.4rem } }
+</style>
+</head>
+<body>
+<p class="lnk"><a href="index.html">&larr; Grigore Ro&#351;u</a></p>
+<h1>Grigore Rosu's Join Group Page</h1>
+<p>(back to <a href="index.html">Grigore Rosu</a>'s page)</p>
+<p>I am continuously looking for good people to join my research group, at all levels: undergraduate students, M.S students, Ph.D. students, Postdocs, or research programmers. To apply, first read the information below and then send me an email message (grosu@illinois.edu). Or, if you are already in the Urbana-Champaign area, just come to my office (SC 2110).</p>
+<h2>Why UIUC</h2>
+<ul>
+<li>Consistently ranked top 5 in CS (see rankings by US News, the most reliable), although in terms of quality it is hard to distinguish among the top 10 CS departments in the US. By other rankings, UIUC is ranked No 1 in the extended area of Software Engineering, Programming Languages and Formal Methods; see for example this blog written by another professor in our department. In general, I strongly encourage you to NOT distinguish among the top 10 universities by their precise ranking, maybe not even among the top 20. That would be a mistake which may make you miss some good opportunities.</li>
+<li>Very strong in formal methods, software engineering and programming languages. If you look at the top conferences in these areas, 10% or more of the papers are typically co-authored by UIUC faculty. While there is no specific ranking in formal methods, it is believed that we are top in the US.</li>
+<li>Very collaborative. Many top departments encourage their faculty to have a star attitude, working only by themselves and their group; sometimes such professors get very upset when their students collaborate with other professors. Not at UIUC. I have published joint papers with 6 other faculty members at UIUC, and our students collaborate a lot.</li>
+<li>Very large department and area. It is sometimes the case that a student needs to change their adviser due to lack of matching. Indeed, you do not know upfront if the professor who happens to offer you an RA-ship is a perfect match for you. At UIUC, there are more than 10 professors doing formal methods, software engineering, and/or programming languages. So it is easy for you to find an adviser in this area and to learn a lot from many good people, no matter who you start with. Compare that to a department where there is only one or two professors working in this area.</li>
+</ul>
+<p>The only drawback that I can think of in what regards UIUC is that it is sort of isolated. So if you are a big-city person and like to continue to be like that, then you may not like it here. While in principle 3 big cities are within a 2.5 hour drive (Chicago, St Louis, Indianapolis), you will still feel that you live in a small town. Well, some students say that is a good reason to party harder. In fact, in 2018, Champaign scored the #1 spot in the 
+<a href="https://livability.com/top-10/college/top-10-best-cities-for-recent-college-grads/2018/il/champaign">Best Cities for Recent College Grads</a> ranking. The university lies in-between 3 small towns, Champaign, Urbana, and Savoy, with a total population of 100k, half of those being students.</p>
+<h2>Why My Group</h2>
+<ul>
+<li>We keep a good balance between theory and practice, which was the reason behind our group's yin-yang icon (top-left corner). We do not prove useless theorems, and we do not develop adhoc systems which are not based on solid foundations.</li>
+<li>We push the envelope of knowledge in our area and we constantly challenge the state of the art. We do NOT do mainstream research. For example, the mainstream deductive program verification philosophy is still (after 40 years) that Hoare logic and weakest-precondition/strongest-postcondition are the way to go, the only thing left to do for followers being to develop better "program logics" (e.g., separation logics). We believe that these are already obsolete. Instead, we develop automatic coinductive verification techniques, based entirely on operational semantics of languages and on pattern logics that allow you to structurally reason about any configurations, including heaps, stacks, I/O, etc. Also, in our runtime verification work, we dramatically reduce the complexity of verifying systems by developing language paradigms which guarantee that programs are not let go wrong, or if they are allowed to possibly go wrong for performance reasons, then we can immediately predict where and how they can go wrong.</li>
+<li>We are very international in spirit, and friendly. We have lots of meetings in which we like to debate and argue about ideas and approaches, and everybody is encouraged to tell and fight for their opinions. In addition to one weekly group meeting of about 90min in which everybody gives a five-minute overview of their past week, we have two technical area meetings, each lasting about 2 hours, and each student has an individual 30min weekly meeting with me. Besides these "official" meetings, we have many adhoc meetings, on a by-need basis.</li>
+</ul>
+<h2>Before You Apply</h2>
+<p>Like other professors, I am invaded with generic messages (read "spam") from people who want to join my group and who only send their CV and a brief description of how smart they are without paying any attention to what we do in our group. Below is some information that you should know before you apply.</p>
+<ul>
+<li>We are doing research that falls into the broad areas of programming languages, software engineering and formal methods, but with particular focus on the three related subareas listed on my webpage: programming language design/semantics/verification using K/matching logic/reachability logic, runtime verification, and coinductive reasoning. Please do not apply if your research interests do not fall within these areas. Note: maybe they do but you don't know it, so do your homework and read what these areas are before you decide.</li>
+<li>We are a collaborative group. If you'd rather work alone for whatever reasons, or if you know that you have a hard time working in a group and accepting other people's opinion which can be different from yours, then you should better not join our group, because you are not going to survive anyway.</li>
+<li>We develop solid systems. You may have heard that people in academia develop only rough system prototypes, just enough to publish their next paper. Not us. If you join our group you should expect to spend about 50% of your time on development and even more if you are an M.S. student, and be prepared to work in a large team. For example, there are about 20 people from all over the world committing code regularly in the K framework tool. For us, publications are a natural consequence of a well-done work, and not the driving force behind our work.</li>
+<li>We work hard, with enthusiasm and determination, because we love what we do. Based on your previous academic experience, you may think that you are more talented than others, and thus you can work less, but you should keep it in mind that here you may compare yourself with a different category of people, for whom talent is the norm. Your talent will be reflected in your productivity in our group, but not in how little you work.</li>
+<li>We are dedicated to our projects. This should be understood, but just in case. If you join our group, you are expected to dedicate yourself to our projects. If you have your own projects, which is OK, you have to organize yourself to work on them in a way that does not interfere with or delay our projects.</li>
+<li>If I don't know you well already, the main criteria for selecting you to be part of my group are the following: (1) recommendation letters, which should be very supportive and show your potential for research, and which should be from respected and available scientists; I often contact the people who write you letters to ask additional questions; (2) the school you are coming from and your GPA; (3) your publication/research record (mostly for Postdoc applicants). I do not care about your GRE/TOEFL or other similar exams in order to offer you a research assistantship, but be assured that I will call you before I make you any offer and your English should be good enough that we understand each other. Regarding TEOFL (or equivalent), it is in your interest to take it and get a passing (Speak) score, because that will allow you to be a teaching assistant and thus significantly increase your chances to be admitted in case you fulfill the admission criteria but a research assistantship is not immediately available for you.</li>
+</ul>
+<p>If after reading the above you believe that our team is a good fit for you, then please send me a message with subject "Would like to join FSL" (so I know you read the above) letting me know about your intention and anything else you think is relevant, and go ahead and apply! If you are applying for a PhD/MS student position at UIUC and think of joining my group as a research assistant, make sure that you click on my name in the list of faculty of interest when you submit your application, because that will direct me to your application (we receive about 3000-4000 applications each year). Note, however, that admission at UIUC is done by a committee and not by individual professors. All I can do is to direct their attention to your application.</p>
+</body>
+</html>

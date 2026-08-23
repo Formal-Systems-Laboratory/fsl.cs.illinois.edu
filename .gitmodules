@@ -1,3 +1,0 @@
-[submodule "_fsl"]
-	path = _fsl
-	url = git@github.com:formal-systems-laboratory/fsl
