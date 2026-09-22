@@ -78,6 +78,29 @@ Complete lecture notes will be posted here, following the same model as in <a hr
 <p><b><em><span style="color:red">HW2 (due date: Thursday, Sept 24th, AoE)</span></em></b></p>
 <p>Pick and do one exercise in each K Tutorial Lesson that we covered in class.  Create a github repo, possibly as a clone of the K tutorial, and add the exercises there in the appropriate folders using any naming convention you prefer.  When done, give me access to view your repo and send me an email to confirm that I have access.  My github ID is <code>grosu</code>.</p>
 <hr />
+<ul>
+<li><strong><em><a href="https://github.com/runtimeverification/pl-tutorial/tree/master">PL Tutorial</a></em></strong></li>
+<li><a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/1_lambda">PL Tutorial, Part 1: Defining LAMBDA</a></li>
+<li><a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/2_imp">PL Tutorial, Part 2: Defining IMP</a></li>
+<li><a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/3_lambda%2B%2B">PL Tutorial, Part 3: Defining LAMBDA++</a></li>
+<li><a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/4_imp%2B%2B">PL Tutorial, Part 4: Defining IMP++</a></li>
+<li><a href="../../../assets/CS422-K-Overview.pdf">K Overview</a> paper to learn more about K. Sections 1 and 2 (the other sections are optional now; they are covered below)</li>
+</ul>
+<hr />
+<p><b><em><span style="color:red">HW3 (due date: Thursday, Oct 1st, AoE)</span></em></b></p>
+<p><strong><em>Exercise 1 (10 points):</em></strong> The current K LAMBDA semantics of mu (in Lesson 8) is based on substitution, and then letrec is defined as a derived operation using <code>mu</code>. Give <code>mu</code> a different semantics, as a derived construct by translation into other LAMBDA constructs, like we defined <code>letrec</code> in Lesson 7. To test it, use the same definition of letrec in terms of mu (from Lesson 8) and write 3 recursive programs, like the provided <code>factorial-letrec.lambda</code>.</p>
+<p>Note: See the <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/1_lambda/lesson_8/exercises/mu-derived">mu-derived</a> exercise in the nightly built for details and test programs.</p>
+<p><strong><em>Exercise 2 (10 points):</em></strong> Modify the K definition of IMP to not automatically initialize variables to 0. Instead, declared variables should stay uninitialized until assigned a value, and the execution should get stuck when an uninitialized variable is looked up.</p>
+<p>Note: See the <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/2_imp/lesson_4/exercises/uninitialized-variables">uninitialized-variables</a> exercise in the nightly built for details and test programs.</p>
+<p><strong><em>Exercise 3 (10 points):</em></strong> Mofify IMP so that the K "followed by" arrow, <code>~&gt;</code>, does not explicitly occur in the definition (it currently occurs in the semantics of sequential composition). Hint: make sequential composition <code>strict(1)</code> or <code>seqstrict</code>, and have statements reduce to <code>{}</code> instead of <code>.</code>, ... and don't forget to make <code>{}</code> a <code>KResult</code> (you may need a new syntactic category for that, which only includes <code>{}</code> and is included in <code>KResult</code>).</p>
+<p>Note: See the <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/2_imp/lesson_4/exercises/purely-syntactic">purely-syntactic</a> exercise in the nightly built for details and test programs.</p>
+<p><strong><em>Exercise 4 (10 points):</em></strong> Define a variant of callcc, say callCC, which never returns to the current continuation unless a value is specifically passed to that continuation. Can you define them in terms of each other? Pick one of the substitution versus the environment-based definitions (get extra-credit if you do both).</p>
+<p>Note: See the <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/3_lambda%2B%2B/lesson_1/exercises/callCC">callCC (substitution)</a>, 
+<a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/3_lambda%2B%2B/lesson_1/exercises/from-call-CC-to-callcc">from-call-CC-to-callcc (substitution)</a>, <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/3_lambda%2B%2B/lesson_1/exercises/from-callcc-to-call-CC">from-callcc-to-call-CC(substitution)</a>, 
+<a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/3_lambda%2B%2B/lesson_6/exercises/callCC">callCC (environment)</a>, 
+<a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/3_lambda%2B%2B/lesson_6/exercises/from-call-CC-to-callcc">from-call-CC-to-callcc (environment)</a>, and <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/3_lambda%2B%2B/lesson_6/exercises/from-callcc-to-call-CC">from-callcc-to-call-CC (environment)</a> exercises in the nightly built for details and test programs.</p>
+<p><strong><em>Exercise 5 (10 points):</em></strong> The current <code>halt;</code> statement of IMP++ only halts the current thread.  Define an <code>abort;</code> statement which halts the entire program.</p>
+<hr />
 <p>... for the rest.</p>
 </body>
 </html>
