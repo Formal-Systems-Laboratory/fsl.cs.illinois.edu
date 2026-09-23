@@ -87,7 +87,7 @@ Complete lecture notes will be posted here, following the same model as in <a hr
 <li><a href="../../../assets/CS422-K-Overview.pdf">K Overview</a> paper to learn more about K. Sections 1 and 2 (the other sections are optional now; they are covered below)</li>
 </ul>
 <hr />
-<p><b><em><span style="color:red">HW3 (due date: Thursday, Oct 1st, AoE)</span></em></b></p>
+<p><b><em><span style="color:red">HW3 (due date: Thursday, Oct 8th, AoE)</span></em></b></p>
 <p><strong><em>Exercise 1 (10 points):</em></strong> The current K LAMBDA semantics of mu (in Lesson 8) is based on substitution, and then letrec is defined as a derived operation using <code>mu</code>. Give <code>mu</code> a different semantics, as a derived construct by translation into other LAMBDA constructs, like we defined <code>letrec</code> in Lesson 7. To test it, use the same definition of letrec in terms of mu (from Lesson 8) and write 3 recursive programs, like the provided <code>factorial-letrec.lambda</code>.</p>
 <p>Note: See the <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/1_lambda/lesson_8/exercises/mu-derived">mu-derived</a> exercise in the nightly built for details and test programs.</p>
 <p><strong><em>Exercise 2 (10 points):</em></strong> Modify the K definition of IMP to not automatically initialize variables to 0. Instead, declared variables should stay uninitialized until assigned a value, and the execution should get stuck when an uninitialized variable is looked up.</p>
