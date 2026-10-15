@@ -87,6 +87,9 @@ Complete lecture notes will be posted here, following the same model as in <a hr
 <li><a href="../../../assets/CS422-K-Overview.pdf">K Overview</a> paper to learn more about K. Sections 1 and 2 (the other sections are optional now; they are covered below)</li>
 </ul>
 <hr />
+<p><b><em><span style="color:red">Homework submission: from HW3 on, use PrairieLearn</span></em></b></p>
+<p>From here on we use <a href="https://us.prairielearn.com/pl/course_instance/234946/assessments">PrairieLearn</a> for all homework assignments. You already have an account. Open the assessment for the homework you are working on, write and test your solutions there, and submit through it. The same link works for HW3 and every assignment after it.</p>
+<hr />
 <p><b><em><span style="color:red">HW3 (due date: Thursday, Oct 8th, AoE)</span></em></b></p>
 <p><strong><em>Exercise 1 (10 points):</em></strong> The current K LAMBDA semantics of mu (in Lesson 8) is based on substitution, and then letrec is defined as a derived operation using <code>mu</code>. Give <code>mu</code> a different semantics, as a derived construct by translation into other LAMBDA constructs, like we defined <code>letrec</code> in Lesson 7. To test it, use the same definition of letrec in terms of mu (from Lesson 8) and write 3 recursive programs, like the provided <code>factorial-letrec.lambda</code>.</p>
 <p>Note: See the <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/1_lambda/lesson_8/exercises/mu-derived">mu-derived</a> exercise in the nightly built for details and test programs.</p>
@@ -101,6 +104,24 @@ Complete lecture notes will be posted here, following the same model as in <a hr
 <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/3_lambda%2B%2B/lesson_6/exercises/from-call-CC-to-callcc">from-call-CC-to-callcc (environment)</a>, and <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/3_lambda%2B%2B/lesson_6/exercises/from-callcc-to-call-CC">from-callcc-to-call-CC (environment)</a> exercises in the nightly built for details and test programs.</p>
 <p><strong><em>Exercise 5 (10 points):</em></strong> The current <code>halt;</code> statement of IMP++ only halts the current thread.  Define an <code>abort;</code> statement which halts the entire program.</p>
 <p>Note: See the <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/4_imp%2B%2B/lesson_7/exercises/abort">abort</a> exercise in the nightly built for details and test programs.</p>
+<hr />
+<ul>
+<li><strong><em>SIMPLE: Designing Imperative Programming Languages</em></strong></li>
+<li><a href="https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/1_simple">SIMPLE untyped, statically typed, and dynamically typed</a>.</li>
+<li><a href="https://github.com/runtimeverification/pl-tutorial/tree/master/1_k/5_types">K Tutorial, Part 5: Defining type systems</a> (this is optional at this stage, but instructive for better understanding the static semantics; read at least Lesson 1, and skim Lesson 6).</li>
+<li><a href="../../../assets/CS422-K-Overview.pdf">K Overview</a> paper, which also defines and explains SIMPLE. Sections 3 and 4 (the other sections were covered above)</li>
+</ul>
+<hr />
+<p><b><em><span style="color:red">HW4 (due date: Thursday, Oct 22nd, AoE)</span></em></b></p>
+<p><strong><em>Exercise 1 (10 points):</em></strong> Add <code>break;</code> and <code>continue;</code> to untyped SIMPLE. Just take the semantics of these from C/C++/Java, if uncertain. Do only the simple, unlabeled ones, which only break/continue the innermost loop. One thing to think about: do you still want to desugar the for-loop into a while-loop as we do it now?</p>
+<p>Note: See the <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/1_simple/1_untyped/exercises/break-continue">break-continue</a> exercise for untyped SIMPLE in the nightly built for details and test programs.</p>
+<p><strong><em>Exercise 2 (10 points):</em></strong> Our current exceptions in SIMPLE are quite simplistic: the thrown exceptional value is caught by the innermost try-catch statement, and you get a runtime error (stuck) if the type of the thrown value is not the same as the type of the exception's parameter. They work fine if you restrict them to only throw and catch integer values, like we did in the static semantics, but modern languages do not like this limitation. Change the existing dynamic semantics of typed SIMPLE to propagate a thrown exception to the outer try-catch statement when the inner one cannot handle the exception due to a type mismatch. For example, <code>try { try { throw 7; } catch(bool x) {print(1};} } catch{int x) {print(2);}</code> should print 2, not get stuck as it currently happens.</p>
+<p>Note: See the <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/1_simple/2_typed/2_dynamic/exercises/typed-exceptions">typed-exceptions</a> exercise for dynamically typed SIMPLE in the nightly built for details and test programs.</p>
+<p><strong><em>Exercise 3 (10 points):</em></strong> Same as Pb2, but for the static semantics of the typed SIMPLE. For this exercise (but not for the previous one), modify also the syntax of SIMPLE to allow functions to declare what exceptions they can throw.</p>
+<p>Note: See the <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/1_simple/2_typed/1_static/exercises/functions-with-throws">functions-with-throws</a> exercise for statically typed SIMPLE in the nightly built for details and test programs.</p>
+<p><strong><em>Exercise 4 (10 points):</em></strong> Compilers typically collect all the variables declared in a block and move them all in one place, renaming them appropriately everywhere to avoid name conflicts. Consequently, they do not like you to declare a variable twice in the same block. Modify the static semantics of SIMPLE to reject programs which declare the same variable twice in a block. Your resulting type system should get stuck when a variable is declared the second time.</p>
+<p>Note: See the <a href="https://github.com/runtimeverification/pl-tutorial/tree/master/2_languages/1_simple/2_typed/1_static/exercises/no-duplicate-declarations">no-duplicate-declarations</a> exercise for statically typed SIMPLE in the nightly built for details and test programs.</p>
+<p>For each of the problems, also provide one test program which should succeed and one which should fail. You will get two extra-points if any of your tests break everybody's definition (except potentially yours). If you handle more than one succeeding and one failing test, then I will randomly choose one of each.</p>
 <hr />
 <p>... for the rest.</p>
 </body>
